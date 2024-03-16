@@ -1,0 +1,14 @@
+.bg {
+  background-color: rgba(0, 0, 0, 0.7);
+  // background-color: #ffffff;
+}
+
+.panel {
+  width: 628px;
+  height: 266px;
+  background: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(16px);
+
+  border-radius: 8px;
+}

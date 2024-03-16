@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "common/*": ["src/common/*"],
+      "utils/*": ["src/utils/*"],
+      "pages/*": ["src/pages/*"],
+      "layouts/*": ["src/layouts/*"],
+      "styles/*": ["src/styles/*"],
+      "shared-components/*": ["src/shared-components/*"],
+      "app/*": ["src/app/*"],
+      "contexts/*": ["src/contexts/*"],
+      "mui-theme/*": ["src/mui-theme/*"],
+      "contracts/*": ["src/contracts/*"],
+      "swagger/*": ["src/swagger/*"],
+      "services/*": ["src/services/*"],
+      "consts/*": ["src/consts/*"],
+    }
+  }
+}

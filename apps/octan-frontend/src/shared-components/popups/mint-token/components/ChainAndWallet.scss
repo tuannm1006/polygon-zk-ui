@@ -1,0 +1,21 @@
+.linear-gradient-text {
+  background: linear-gradient(90deg, #00ff7c 0.01%, #00c4ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.linear-background {
+  background: var(--gradient-14, linear-gradient(351deg, #f67265 9.99%, #ffe375 105.93%));
+}
+
+.text-underline {
+  color: var(--black-40, #898989);
+  text-align: right;
+  font-family: Centra No2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  text-decoration-line: line-through;
+}

@@ -1,0 +1,802 @@
+[
+  {
+    "No": 0,
+    "Address": "0xa090e606e30bd747d4e6245a1517ebe430f0057e",
+    "Identity": "Coinbase: Miscellaneous",
+    "ReputationScore": 103.8440277,
+    "TotalTransactions": 548911,
+    "InTransactions": 548895
+  },
+  {
+    "No": 1,
+    "Address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "Identity": "Tether USD (USDT)",
+    "ReputationScore": 84.85098255,
+    "TotalTransactions": 523705,
+    "InTransactions": 523705
+  },
+  {
+    "No": 2,
+    "Address": "0x4ad64983349c49defe8d7a4686202d24b25d0ce8",
+    "Identity": "KuCoin 4",
+    "ReputationScore": 39.14416617,
+    "TotalTransactions": 207442,
+    "InTransactions": 195099
+  },
+  {
+    "No": 3,
+    "Address": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "Identity": "Uniswap V2: Router 2",
+    "ReputationScore": 30.31563415,
+    "TotalTransactions": 284602,
+    "InTransactions": 284602
+  },
+  {
+    "No": 4,
+    "Address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "Identity": "USD Coin (USDC)",
+    "ReputationScore": 17.22232192,
+    "TotalTransactions": 143989,
+    "InTransactions": 143989
+  },
+  {
+    "No": 5,
+    "Address": "0x28c6c06298d514db089934071355e5743bf21d60",
+    "Identity": "Binance 14",
+    "ReputationScore": 8.981140884,
+    "TotalTransactions": 95001,
+    "InTransactions": 46345
+  },
+  {
+    "No": 6,
+    "Address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+    "Identity": "Uniswap V3: Router",
+    "ReputationScore": 8.320345324,
+    "TotalTransactions": 100499,
+    "InTransactions": 100499
+  },
+  {
+    "No": 7,
+    "Address": "0x6c42627f2b140c1fc5c2cdb653d077e57abb95a8",
+    "Identity": "",
+    "ReputationScore": 7.24367145,
+    "TotalTransactions": 52812,
+    "InTransactions": 52811
+  },
+  {
+    "No": 8,
+    "Address": "0xa12431d0b9db640034b0cdfceef9cce161e62be4",
+    "Identity": "HitBTC 3",
+    "ReputationScore": 7.139875703,
+    "TotalTransactions": 35047,
+    "InTransactions": 34858
+  },
+  {
+    "No": 9,
+    "Address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "Identity": "Maker: Dai Stablecoin",
+    "ReputationScore": 6.044466168,
+    "TotalTransactions": 50348,
+    "InTransactions": 50348
+  },
+  {
+    "No": 10,
+    "Address": "0x0064454b14cddc990ed6520ef94d3e28fe7c41b6",
+    "Identity": "",
+    "ReputationScore": 5.860943408,
+    "TotalTransactions": 29346,
+    "InTransactions": 29342
+  },
+  {
+    "No": 11,
+    "Address": "0x881d40237659c251811cec9c364ef91dc08d300c",
+    "Identity": "Metamask: Swap Router",
+    "ReputationScore": 5.617305112,
+    "TotalTransactions": 55568,
+    "InTransactions": 55568
+  },
+  {
+    "No": 12,
+    "Address": "0xf6874c88757721a02f47592140905c4336dfbc61",
+    "Identity": "Coinbase Commerce",
+    "ReputationScore": 5.318555075,
+    "TotalTransactions": 27640,
+    "InTransactions": 27640
+  },
+  {
+    "No": 13,
+    "Address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+    "Identity": "Polygon (Matic)",
+    "ReputationScore": 5.155878867,
+    "TotalTransactions": 47982,
+    "InTransactions": 47982
+  },
+  {
+    "No": 14,
+    "Address": "0xa4e5961b58dbe487639929643dcb1dc3848daf5e",
+    "Identity": "",
+    "ReputationScore": 4.977676189,
+    "TotalTransactions": 37874,
+    "InTransactions": 27546
+  },
+  {
+    "No": 15,
+    "Address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+    "Identity": "Shiba Inu: SHIB Token",
+    "ReputationScore": 4.49551023,
+    "TotalTransactions": 35923,
+    "InTransactions": 35923
+  },
+  {
+    "No": 16,
+    "Address": "0x3682a465efadde8453806544b7ad08091106c54f",
+    "Identity": "",
+    "ReputationScore": 4.447443303,
+    "TotalTransactions": 21340,
+    "InTransactions": 21338
+  },
+  {
+    "No": 17,
+    "Address": "0xa0c68c638235ee32657e8f720a23cec1bfc77c77",
+    "Identity": "Polygon (Matic): Bridge",
+    "ReputationScore": 3.94276984,
+    "TotalTransactions": 44251,
+    "InTransactions": 44251
+  },
+  {
+    "No": 18,
+    "Address": "0xa3d7cadd326d098cad4c1bebff63d80ed720ab74",
+    "Identity": "",
+    "ReputationScore": 3.921795763,
+    "TotalTransactions": 18831,
+    "InTransactions": 18831
+  },
+  {
+    "No": 19,
+    "Address": "0x4f6742badb049791cd9a37ea913f2bac38d01279",
+    "Identity": "Celsius Network: Wallet 5",
+    "ReputationScore": 3.501693785,
+    "TotalTransactions": 18985,
+    "InTransactions": 18924
+  },
+  {
+    "No": 20,
+    "Address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+    "Identity": "Chainlink: LINK Token",
+    "ReputationScore": 3.280412423,
+    "TotalTransactions": 27283,
+    "InTransactions": 27283
+  },
+  {
+    "No": 21,
+    "Address": "0x1a2a1c938ce3ec39b6d47113c7955baa9dd454f2",
+    "Identity": "Axie Infinity: Ronin Bridge",
+    "ReputationScore": 3.179168765,
+    "TotalTransactions": 21291,
+    "InTransactions": 21291
+  },
+  {
+    "No": 22,
+    "Address": "0x6dfc34609a05bc22319fa4cce1d1e2929548c0d7",
+    "Identity": "",
+    "ReputationScore": 2.608406402,
+    "TotalTransactions": 18914,
+    "InTransactions": 12515
+  },
+  {
+    "No": 23,
+    "Address": "0xfaff15c6cdaca61a4f87d329689293e07c98f578",
+    "Identity": "Zapper.Fi: Zapper NFT",
+    "ReputationScore": 2.498876572,
+    "TotalTransactions": 23167,
+    "InTransactions": 23167
+  },
+  {
+    "No": 24,
+    "Address": "0x077d360f11d220e4d5d831430c81c26c9be7c4a4",
+    "Identity": "ChangeNOW",
+    "ReputationScore": 2.442640044,
+    "TotalTransactions": 18117,
+    "InTransactions": 11733
+  },
+  {
+    "No": 25,
+    "Address": "0xfa52274dd61e1643d2205169732f29114bc240b3",
+    "Identity": "Kraken 5",
+    "ReputationScore": 2.090296896,
+    "TotalTransactions": 10030,
+    "InTransactions": 10030
+  },
+  {
+    "No": 26,
+    "Address": "0x1b16e73d99310f9011d5b53e3092fce52aa67f05",
+    "Identity": "",
+    "ReputationScore": 2.074734505,
+    "TotalTransactions": 9956,
+    "InTransactions": 9954
+  },
+  {
+    "No": 27,
+    "Address": "0x7eeabc0b59ac71cb25bdf92f24cf17682a7099d4",
+    "Identity": "",
+    "ReputationScore": 1.985007596,
+    "TotalTransactions": 9528,
+    "InTransactions": 9525
+  },
+  {
+    "No": 28,
+    "Address": "0xf343f843dc732cb527cbb3e48c3d01c06fe0c74c",
+    "Identity": "",
+    "ReputationScore": 1.950825916,
+    "TotalTransactions": 9379,
+    "InTransactions": 9379
+  },
+  {
+    "No": 29,
+    "Address": "0x8df6084e3b84a65ab9dd2325b5422e5debd8944a",
+    "Identity": "Coinbase: Wallet Swap Pr",
+    "ReputationScore": 1.86664837,
+    "TotalTransactions": 13087,
+    "InTransactions": 13087
+  },
+  {
+    "No": 30,
+    "Address": "0x75e89d5979e4f6fba9f97c104c2f0afb3f1dcb88",
+    "Identity": "MEXC: Mexc.com",
+    "ReputationScore": 1.836631714,
+    "TotalTransactions": 13950,
+    "InTransactions": 8940
+  },
+  {
+    "No": 31,
+    "Address": "0xd3e52099a6a48f132cb23b1364b7dee212d862f6",
+    "Identity": "",
+    "ReputationScore": 1.829991702,
+    "TotalTransactions": 10296,
+    "InTransactions": 9716
+  },
+  {
+    "No": 32,
+    "Address": "0x68b22215ff74e3606bd5e6c1de8c2d68180c85f7",
+    "Identity": "BitMart 2",
+    "ReputationScore": 1.773140731,
+    "TotalTransactions": 29287,
+    "InTransactions": 8933
+  },
+  {
+    "No": 33,
+    "Address": "0xeeb76868efe833ac24e03cc1395176d1d470a925",
+    "Identity": "",
+    "ReputationScore": 1.768454756,
+    "TotalTransactions": 8555,
+    "InTransactions": 8540
+  },
+  {
+    "No": 34,
+    "Address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "Identity": "Uniswap Protocol: UNI token",
+    "ReputationScore": 1.665342916,
+    "TotalTransactions": 17100,
+    "InTransactions": 17100
+  },
+  {
+    "No": 35,
+    "Address": "0x1db92e2eebc8e0c075a02bea49a2935bcd2dfcf4",
+    "Identity": "",
+    "ReputationScore": 1.617971388,
+    "TotalTransactions": 7963,
+    "InTransactions": 7963
+  },
+  {
+    "No": 36,
+    "Address": "0x5096704f747246ababcda9edd8736b68f90ae54f",
+    "Identity": "",
+    "ReputationScore": 1.576709024,
+    "TotalTransactions": 8128,
+    "InTransactions": 8128
+  },
+  {
+    "No": 37,
+    "Address": "0x3cd751e6b0078be393132286c442345e5dc49699",
+    "Identity": "Coinbase 4",
+    "ReputationScore": 1.546926503,
+    "TotalTransactions": 127109,
+    "InTransactions": 7994
+  },
+  {
+    "No": 38,
+    "Address": "0x5674b91358e22eacc72f782b59d26c5054d3a461",
+    "Identity": "",
+    "ReputationScore": 1.523242281,
+    "TotalTransactions": 7314,
+    "InTransactions": 7309
+  },
+  {
+    "No": 39,
+    "Address": "0xf0d9fcb4fefdbd3e7929374b4632f8ad511bd7e3",
+    "Identity": "",
+    "ReputationScore": 1.513272443,
+    "TotalTransactions": 7298,
+    "InTransactions": 7297
+  },
+  {
+    "No": 40,
+    "Address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "Identity": "Wrapped Ether",
+    "ReputationScore": 1.479428258,
+    "TotalTransactions": 23708,
+    "InTransactions": 23708
+  },
+  {
+    "No": 41,
+    "Address": "0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d",
+    "Identity": "Celsius Network: CEL",
+    "ReputationScore": 1.461699641,
+    "TotalTransactions": 9392,
+    "InTransactions": 9392
+  },
+  {
+    "No": 42,
+    "Address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+    "Identity": "Coinbase 5",
+    "ReputationScore": 1.454230316,
+    "TotalTransactions": 128202,
+    "InTransactions": 7530
+  },
+  {
+    "No": 43,
+    "Address": "0xc94ebb328ac25b95db0e0aa968371885fa516215",
+    "Identity": "",
+    "ReputationScore": 1.433202734,
+    "TotalTransactions": 10331,
+    "InTransactions": 6876
+  },
+  {
+    "No": 44,
+    "Address": "0xeb2629a2734e272bcc07bda959863f316f4bd4cf",
+    "Identity": "Coinbase 6",
+    "ReputationScore": 1.416640652,
+    "TotalTransactions": 121076,
+    "InTransactions": 7326
+  },
+  {
+    "No": 45,
+    "Address": "0x6262998ced04146fa42253a5c0af90ca02dfd2a3",
+    "Identity": "Crypto.com",
+    "ReputationScore": 1.38513517,
+    "TotalTransactions": 7093,
+    "InTransactions": 7045
+  },
+  {
+    "No": 46,
+    "Address": "0x1ce319261565de6d71c29493c1834d8d3c7d1c45",
+    "Identity": "",
+    "ReputationScore": 1.379394379,
+    "TotalTransactions": 7041,
+    "InTransactions": 6638
+  },
+  {
+    "No": 47,
+    "Address": "0x39f6a6c85d39d5abad8a398310c52e7c374f2ba3",
+    "Identity": "WhiteBIT",
+    "ReputationScore": 1.356554486,
+    "TotalTransactions": 10754,
+    "InTransactions": 6512
+  },
+  {
+    "No": 48,
+    "Address": "0xa7efae728d2936e78bda97dc267687568dd593f3",
+    "Identity": "OKX 3",
+    "ReputationScore": 1.328232867,
+    "TotalTransactions": 10741,
+    "InTransactions": 6490
+  },
+  {
+    "No": 49,
+    "Address": "0xddfabcdc4d8ffc6d5beaf154f18b778f892a0740",
+    "Identity": "Coinbase 3",
+    "ReputationScore": 1.294187894,
+    "TotalTransactions": 127384,
+    "InTransactions": 6710
+  },
+  {
+    "No": 50,
+    "Address": "0x7be8076f4ea4a4ad08075c2508e481d6c946d12b",
+    "Identity": "OpenSea: Wyvern Exchange v1",
+    "ReputationScore": 1.245504343,
+    "TotalTransactions": 16040,
+    "InTransactions": 16040
+  },
+  {
+    "No": 51,
+    "Address": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+    "Identity": "Basic Attention: BAT Token",
+    "ReputationScore": 1.235926187,
+    "TotalTransactions": 10747,
+    "InTransactions": 10747
+  },
+  {
+    "No": 52,
+    "Address": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
+    "Identity": "Gitcoin: GTC Token",
+    "ReputationScore": 1.233435214,
+    "TotalTransactions": 12390,
+    "InTransactions": 12390
+  },
+  {
+    "No": 53,
+    "Address": "0x11111112542d85b3ef69ae05771c2dccff4faa26",
+    "Identity": "1inch: Aggregation Router",
+    "ReputationScore": 1.228923787,
+    "TotalTransactions": 18205,
+    "InTransactions": 18205
+  },
+  {
+    "No": 54,
+    "Address": "0xff8b77d5f69a4fdee547ebcb69a09c950bdcd39a",
+    "Identity": "",
+    "ReputationScore": 1.226236832,
+    "TotalTransactions": 11760,
+    "InTransactions": 11760
+  },
+  {
+    "No": 55,
+    "Address": "0x3242aebcdcf8de491004b1c98e6595e9827f6c17",
+    "Identity": "GUSDT: GUSDT Token",
+    "ReputationScore": 1.207791883,
+    "TotalTransactions": 5843,
+    "InTransactions": 5843
+  },
+  {
+    "No": 56,
+    "Address": "0x190fbeb640480ce706df35c6a6a515543a079b62",
+    "Identity": "sky3838.eth",
+    "ReputationScore": 1.16079142,
+    "TotalTransactions": 5570,
+    "InTransactions": 5569
+  },
+  {
+    "No": 57,
+    "Address": "0x9a6f44d9b7184e415c70547ad26e197bb1cf3a19",
+    "Identity": "",
+    "ReputationScore": 1.12827714,
+    "TotalTransactions": 5564,
+    "InTransactions": 5561
+  },
+  {
+    "No": 58,
+    "Address": "0xd3242291d3ee6d38a1ff101fabfe59a1c602d3dd",
+    "Identity": "",
+    "ReputationScore": 1.093887035,
+    "TotalTransactions": 5248,
+    "InTransactions": 5248
+  },
+  {
+    "No": 59,
+    "Address": "0xa5409ec958c83c3f309868babaca7c86dcb077c1",
+    "Identity": "OpenSea: Registry",
+    "ReputationScore": 1.083981953,
+    "TotalTransactions": 11088,
+    "InTransactions": 11088
+  },
+  {
+    "No": 60,
+    "Address": "0xb04c0eb29c72cebc467b9d4944d29116fa02c44a",
+    "Identity": "",
+    "ReputationScore": 1.062623303,
+    "TotalTransactions": 7981,
+    "InTransactions": 5098
+  },
+  {
+    "No": 61,
+    "Address": "0xb2723beacce4bc54f23544343927f048cef6bd5a",
+    "Identity": "",
+    "ReputationScore": 1.051159935,
+    "TotalTransactions": 7936,
+    "InTransactions": 5043
+  },
+  {
+    "No": 62,
+    "Address": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+    "Identity": "Binance USD",
+    "ReputationScore": 1.020739419,
+    "TotalTransactions": 7574,
+    "InTransactions": 7574
+  },
+  {
+    "No": 63,
+    "Address": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+    "Identity": "FTX Exchange 2",
+    "ReputationScore": 1.001946036,
+    "TotalTransactions": 14215,
+    "InTransactions": 4812
+  },
+  {
+    "No": 64,
+    "Address": "0x2b591e99afe9f32eaa6214f7b7629768c40eeb39",
+    "Identity": "HEX.com: HEX Token",
+    "ReputationScore": 0.991229665,
+    "TotalTransactions": 8968,
+    "InTransactions": 8968
+  },
+  {
+    "No": 65,
+    "Address": "0x15874d65e649880c2614e7a480cb7c9a55787ff6",
+    "Identity": "EthereumMax: eMax Token",
+    "ReputationScore": 0.971661353,
+    "TotalTransactions": 14194,
+    "InTransactions": 14194
+  },
+  {
+    "No": 66,
+    "Address": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
+    "Identity": "Ampleforth: AMPL Token",
+    "ReputationScore": 0.959839614,
+    "TotalTransactions": 9439,
+    "InTransactions": 9439
+  },
+  {
+    "No": 67,
+    "Address": "0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+    "Identity": "Amp: AMP Token",
+    "ReputationScore": 0.948030323,
+    "TotalTransactions": 9204,
+    "InTransactions": 9204
+  },
+  {
+    "No": 68,
+    "Address": "0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25",
+    "Identity": "Axie Infinity: SLP Token",
+    "ReputationScore": 0.932240224,
+    "TotalTransactions": 7455,
+    "InTransactions": 7455
+  },
+  {
+    "No": 69,
+    "Address": "0xf76c5b19e86c256482f4aad1dae620a0c3ac0cd6",
+    "Identity": "",
+    "ReputationScore": 0.917629064,
+    "TotalTransactions": 4574,
+    "InTransactions": 4569
+  },
+  {
+    "No": 70,
+    "Address": "0xd64edaf62b536ca8ac5139af819c4067fca7d914",
+    "Identity": "",
+    "ReputationScore": 0.90335196,
+    "TotalTransactions": 4340,
+    "InTransactions": 4337
+  },
+  {
+    "No": 71,
+    "Address": "0xc88f7666330b4b511358b7742dc2a3234710e7b1",
+    "Identity": "",
+    "ReputationScore": 0.878896774,
+    "TotalTransactions": 9358,
+    "InTransactions": 5149
+  },
+  {
+    "No": 72,
+    "Address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+    "Identity": "0x: Exchange Proxy",
+    "ReputationScore": 0.867478566,
+    "TotalTransactions": 15100,
+    "InTransactions": 15100
+  },
+  {
+    "No": 73,
+    "Address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+    "Identity": "Chiliz: CHZ Token",
+    "ReputationScore": 0.846276024,
+    "TotalTransactions": 5047,
+    "InTransactions": 5047
+  },
+  {
+    "No": 74,
+    "Address": "0x401f6c983ea34274ec46f84d70b31c151321188b",
+    "Identity": "Polygon (Matic): Plasma Bridge",
+    "ReputationScore": 0.846141434,
+    "TotalTransactions": 14897,
+    "InTransactions": 14897
+  },
+  {
+    "No": 75,
+    "Address": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+    "Identity": "SushiSwap: Router",
+    "ReputationScore": 0.845534861,
+    "TotalTransactions": 19376,
+    "InTransactions": 19376
+  },
+  {
+    "No": 76,
+    "Address": "0x97122ddca38c29b7653d52b07998d06a7128fa0b",
+    "Identity": "",
+    "ReputationScore": 0.821040405,
+    "TotalTransactions": 10752,
+    "InTransactions": 6578
+  },
+  {
+    "No": 77,
+    "Address": "0x4b1a99467a284cc690e3237bc69105956816f762",
+    "Identity": "",
+    "ReputationScore": 0.815094536,
+    "TotalTransactions": 4133,
+    "InTransactions": 4122
+  },
+  {
+    "No": 78,
+    "Address": "0xa2b4c0af19cc16a6cfacce81f192b024d625817d",
+    "Identity": "AscendEX 2",
+    "ReputationScore": 0.807995772,
+    "TotalTransactions": 9989,
+    "InTransactions": 9989
+  },
+  {
+    "No": 79,
+    "Address": "0xda977e722ec56f9692a37d8a4ea3212dca58114d",
+    "Identity": "",
+    "ReputationScore": 0.790628839,
+    "TotalTransactions": 3793,
+    "InTransactions": 3793
+  },
+  {
+    "No": 80,
+    "Address": "0x6254b927ecc25ddd233aaecd5296d746b1c006b4",
+    "Identity": "",
+    "ReputationScore": 0.731695612,
+    "TotalTransactions": 5796,
+    "InTransactions": 4258
+  },
+  {
+    "No": 81,
+    "Address": "0xf411903cbc70a74d22900a5de66a2dda66507255",
+    "Identity": "Verasity: VRA Token",
+    "ReputationScore": 0.716468432,
+    "TotalTransactions": 5174,
+    "InTransactions": 5174
+  },
+  {
+    "No": 82,
+    "Address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+    "Identity": "Synthetix: Proxy SNX Token",
+    "ReputationScore": 0.714410192,
+    "TotalTransactions": 8145,
+    "InTransactions": 8145
+  },
+  {
+    "No": 83,
+    "Address": "0x5de56ba7f75570535310ad21544676ba1f39a853",
+    "Identity": "",
+    "ReputationScore": 0.70392409,
+    "TotalTransactions": 3377,
+    "InTransactions": 3377
+  },
+  {
+    "No": 84,
+    "Address": "0xa2888ace990d71b63659df4a0ca6b2d5f02d58f4",
+    "Identity": "",
+    "ReputationScore": 0.703715665,
+    "TotalTransactions": 4517,
+    "InTransactions": 3376
+  },
+  {
+    "No": 85,
+    "Address": "0x58b6a8a3302369daec383334672404ee733ab239",
+    "Identity": "Livepeer Token (LPT)",
+    "ReputationScore": 0.700375353,
+    "TotalTransactions": 5685,
+    "InTransactions": 5685
+  },
+  {
+    "No": 86,
+    "Address": "0xec590f69d0cbe1d5d9512c484940232d601e7860",
+    "Identity": "",
+    "ReputationScore": 0.70020718,
+    "TotalTransactions": 3815,
+    "InTransactions": 3814
+  },
+  {
+    "No": 87,
+    "Address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+    "Identity": "",
+    "ReputationScore": 0.695684985,
+    "TotalTransactions": 8504,
+    "InTransactions": 8504
+  },
+  {
+    "No": 88,
+    "Address": "0x63a395b574d5e23c3dbc6986be5994ef6743afa8",
+    "Identity": "Aave: AAVE Token",
+    "ReputationScore": 0.690168048,
+    "TotalTransactions": 6342,
+    "InTransactions": 3410
+  },
+  {
+    "No": 89,
+    "Address": "0xb9ee1e551f538a464e8f8c41e9904498505b49b0",
+    "Identity": "Coinex",
+    "ReputationScore": 0.685025165,
+    "TotalTransactions": 7176,
+    "InTransactions": 3467
+  },
+  {
+    "No": 90,
+    "Address": "0xe5f4990e19d6847f6da9c466fcd8fa0d2f600aca",
+    "Identity": "",
+    "ReputationScore": 0.681726841,
+    "TotalTransactions": 3279,
+    "InTransactions": 3276
+  },
+  {
+    "No": 91,
+    "Address": "0xad285fdedfc0d5f944a33e478356524293c7ec68",
+    "Identity": "",
+    "ReputationScore": 0.65165178,
+    "TotalTransactions": 4331,
+    "InTransactions": 4325
+  },
+  {
+    "No": 92,
+    "Address": "0xf6392577ebdab1e96228e3a50db074947ae9e930",
+    "Identity": "",
+    "ReputationScore": 0.642230327,
+    "TotalTransactions": 3081,
+    "InTransactions": 3081
+  },
+  {
+    "No": 93,
+    "Address": "0x148fb81e52941288e20c3067c85f0499fa724c89",
+    "Identity": "",
+    "ReputationScore": 0.619207664,
+    "TotalTransactions": 5564,
+    "InTransactions": 3840
+  },
+  {
+    "No": 94,
+    "Address": "0x8257711d9af1f9554a1036bef8f70aa130d37e5d",
+    "Identity": "",
+    "ReputationScore": 0.592416781,
+    "TotalTransactions": 2844,
+    "InTransactions": 2842
+  },
+  {
+    "No": 95,
+    "Address": "0x60f80121c31a0d46b5279700f9df786054aa5ee5",
+    "Identity": "Rarible: RARI Token 2",
+    "ReputationScore": 0.592326454,
+    "TotalTransactions": 4454,
+    "InTransactions": 4454
+  },
+  {
+    "No": 96,
+    "Address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+    "Identity": "Decentraland: MANA Token",
+    "ReputationScore": 0.582968935,
+    "TotalTransactions": 5412,
+    "InTransactions": 5412
+  },
+  {
+    "No": 97,
+    "Address": "0xc9f5296eb3ac266c94568d790b6e91eba7d76a11",
+    "Identity": "CEX.IO",
+    "ReputationScore": 0.579664653,
+    "TotalTransactions": 4348,
+    "InTransactions": 2795
+  },
+  {
+    "No": 98,
+    "Address": "0x434b2bbdfbdc7d5b854ceef1bfcb02d8112809fe",
+    "Identity": "",
+    "ReputationScore": 0.576784915,
+    "TotalTransactions": 2870,
+    "InTransactions": 2870
+  },
+  {
+    "No": 99,
+    "Address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+    "Identity": "Compound: COMP Token",
+    "ReputationScore": 0.569097551,
+    "TotalTransactions": 6384,
+    "InTransactions": 6384
+  }
+]

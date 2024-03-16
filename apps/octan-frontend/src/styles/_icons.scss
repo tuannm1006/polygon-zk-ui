@@ -1,0 +1,99 @@
+.octan-icon {
+  display: block;
+  mask-repeat: no-repeat;
+
+  &--question {
+    width: 17px;
+    height: 17px;
+    background-image: url('../asserts/images/icons/question.svg');
+  }
+
+  &--copy {
+    width: 24px;
+    height: 24px;
+    background-image: url('../asserts/images/icons/copy.svg');
+  }
+
+  &--badge-check {
+    width: 24px;
+    height: 24px;
+    background-image: url('../asserts/images/icons/badge-check.svg');
+  }
+
+  &--search {
+    width: 24px;
+    height: 24px;
+    background-image: url('../asserts/images/icons/search.svg');
+  }
+
+  &--close {
+    width: 28px;
+    height: 28px;
+    background-image: url('../asserts/images/icons/x.svg');
+  }
+
+  &--success-xl {
+    width: 100px;
+    height: 100px;
+    background-image: url('../asserts/images/icons/success-xl.svg');
+  }
+
+  &--warning-xl {
+    width: 100px;
+    height: 100px;
+    background-image: url('../asserts/images/icons/warning-xl.svg');
+  }
+
+  &--warning-xl {
+    width: 100px;
+    height: 100px;
+    background-image: url('../asserts/images/icons/warning-xl.svg');
+  }
+
+  &--network {
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+
+    &--bnb {
+      background-image: url('../asserts/images/networks/bnb.png');
+    }
+
+    &--avalanche {
+      background-image: url('../asserts/images/networks/avalanche.png');
+    }
+
+    &--eth {
+      background-image: url('../asserts/images/networks/eth.png');
+    }
+
+    &--polygon {
+      background-image: url('../asserts/images/networks/polygon.png');
+    }
+
+    &--bttc {
+      background-image: url('../asserts/images/networks/bttc.png');
+    }
+
+    &--aurora {
+      border-radius: 50%;
+      background-image: url('../asserts/images/networks/aurora.png');
+    }
+  }
+
+  &--feedback {
+    width: 32px;
+    height: 32px;
+    background-image: url('../asserts/images/icons/feedback.svg');
+  }
+}
+
+[disabled] {
+  .octan-icon {
+    background-image: none;
+    background-color: $default-text-color;
+    &--copy {
+      mask-image: url('../asserts/images/icons/copy.svg');
+    }
+  }
+}

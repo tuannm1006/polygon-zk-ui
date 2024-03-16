@@ -1,0 +1,986 @@
+{
+  "openapi": "3.0.0",
+  "paths": {
+    "/auth/nonce": {
+      "get": {
+        "operationId": "AuthController_nonce",
+        "parameters": [
+          {
+            "name": "chainKey",
+            "required": true,
+            "in": "query",
+            "schema": {
+              "default": "BSC",
+              "enum": [
+                "LOCAL",
+                "BSC",
+                "BSC_TEST"
+              ],
+              "type": "string"
+            }
+          },
+          {
+            "name": "address",
+            "required": true,
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/auth/login": {
+      "post": {
+        "operationId": "AuthController_login",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginWalletDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/wallets": {
+      "get": {
+        "operationId": "UserWalletController_getAll",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserWallet"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/wallets/validate-wallet": {
+      "post": {
+        "operationId": "UserWalletController_validateWallet",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WalletAddressDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/wallets/change-primary-wallet": {
+      "post": {
+        "operationId": "UserWalletController_changePrimaryWallet",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WalletAddressDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/wallets/add-wallet": {
+      "post": {
+        "operationId": "UserWalletController_addNewWallet",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddWalletDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/referrals/details": {
+      "get": {
+        "operationId": "ReferralController_listReferrals",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/users/send-verify-email": {
+      "post": {
+        "operationId": "UserController_sendVerifyEmail",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SendVerifyEmailDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/users/validate-username": {
+      "post": {
+        "operationId": "UserController_validateUsername",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ValidateUsernameDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/users/verify-email": {
+      "post": {
+        "operationId": "UserController_verifyEmail",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyEmailDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/users/current": {
+      "get": {
+        "operationId": "UserController_getCurrentUser",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/sbts/sign-issue": {
+      "post": {
+        "operationId": "SbtController_signSignatureIssue",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SignSignatureIssueSbtDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultSignSignatureIssueOrRevokeSbt"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/sbts/sign-revoke": {
+      "post": {
+        "operationId": "SbtController_signSignatureIssueRevoke",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SignSignatureRevokeSbtDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultSignSignatureIssueOrRevokeSbt"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/sbts/sign-change": {
+      "post": {
+        "operationId": "SbtController_signSignatureChange",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SignSignatureChangeSbtDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResultSignSignatureChangeSbt"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/sbts/user-issue-revoke": {
+      "post": {
+        "operationId": "SbtController_userIssueRevoke",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserIssueRevokeSbtDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/sbts/user-change": {
+      "post": {
+        "operationId": "SbtController_userChange",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserChangeSbtDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/sbts": {
+      "get": {
+        "operationId": "SbtController_findAll",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SoulBoundToken"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/favorites": {
+      "post": {
+        "operationId": "FavoriteController_create",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateFavoriteDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      },
+      "get": {
+        "operationId": "FavoriteController_listAll",
+        "parameters": [
+          {
+            "name": "chainKey",
+            "required": true,
+            "in": "query",
+            "schema": {
+              "default": "BSC",
+              "enum": [
+                "LOCAL",
+                "BSC",
+                "BSC_TEST"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Favorite"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      },
+      "delete": {
+        "operationId": "FavoriteController_delete",
+        "parameters": [
+          {
+            "name": "chainKey",
+            "required": true,
+            "in": "query",
+            "schema": {
+              "default": "BSC",
+              "enum": [
+                "LOCAL",
+                "BSC",
+                "BSC_TEST"
+              ],
+              "type": "string"
+            }
+          },
+          {
+            "name": "address",
+            "required": true,
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    }
+  },
+  "info": {
+    "title": "Soulbound 1ID API",
+    "description": "RESTful API for Octan Soulbound 1ID",
+    "version": "1.5",
+    "contact": {}
+  },
+  "tags": [],
+  "servers": [],
+  "components": {
+    "securitySchemes": {
+      "bearer": {
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "type": "http"
+      }
+    },
+    "schemas": {
+      "LoginWalletDto": {
+        "type": "object",
+        "properties": {
+          "chainKey": {
+            "type": "string"
+          },
+          "address": {
+            "type": "string"
+          },
+          "signature": {
+            "type": "string"
+          },
+          "referralCode": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "chainKey",
+          "address",
+          "signature",
+          "referralCode"
+        ]
+      },
+      "UserWallet": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "chainKey": {
+            "type": "string"
+          },
+          "address": {
+            "type": "string"
+          },
+          "userId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "chainKey",
+          "address",
+          "userId"
+        ]
+      },
+      "WalletAddressDto": {
+        "type": "object",
+        "properties": {
+          "walletAddress": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "walletAddress"
+        ]
+      },
+      "AddWalletDto": {
+        "type": "object",
+        "properties": {
+          "walletAddress": {
+            "type": "string"
+          },
+          "chainKey": {
+            "type": "string"
+          },
+          "signature": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "walletAddress",
+          "chainKey",
+          "signature"
+        ]
+      },
+      "SendVerifyEmailDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "email"
+        ]
+      },
+      "ValidateUsernameDto": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "username"
+        ]
+      },
+      "VerifyEmailDto": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "username",
+          "email",
+          "code"
+        ]
+      },
+      "SignSignatureIssueSbtDto": {
+        "type": "object",
+        "properties": {
+          "chainKey": {
+            "enum": [
+              "LOCAL",
+              "BSC",
+              "BSC_TEST"
+            ],
+            "type": "string",
+            "default": "BSC"
+          }
+        },
+        "required": [
+          "chainKey"
+        ]
+      },
+      "ResultSignSignatureIssueOrRevokeSbt": {
+        "type": "object",
+        "properties": {
+          "sbtId": {
+            "type": "number"
+          },
+          "expiry": {
+            "type": "number"
+          },
+          "signature": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "sbtId",
+          "expiry",
+          "signature"
+        ]
+      },
+      "SignSignatureRevokeSbtDto": {
+        "type": "object",
+        "properties": {
+          "chainKey": {
+            "enum": [
+              "LOCAL",
+              "BSC",
+              "BSC_TEST"
+            ],
+            "type": "string",
+            "default": "BSC"
+          },
+          "sbtId": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "chainKey",
+          "sbtId"
+        ]
+      },
+      "SignSignatureChangeSbtDto": {
+        "type": "object",
+        "properties": {
+          "chainKey": {
+            "enum": [
+              "LOCAL",
+              "BSC",
+              "BSC_TEST"
+            ],
+            "type": "string",
+            "default": "BSC"
+          },
+          "sbtId": {
+            "type": "number"
+          },
+          "to": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "chainKey",
+          "sbtId",
+          "to"
+        ]
+      },
+      "ResultSignSignatureChangeSbt": {
+        "type": "object",
+        "properties": {
+          "sbtId": {
+            "type": "number"
+          },
+          "expiry": {
+            "type": "number"
+          },
+          "signature": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "sbtId",
+          "expiry",
+          "signature",
+          "to"
+        ]
+      },
+      "UserIssueRevokeSbtDto": {
+        "type": "object",
+        "properties": {
+          "option": {
+            "enum": [
+              "issue",
+              "revoke"
+            ],
+            "type": "string",
+            "default": "issue"
+          },
+          "chainKey": {
+            "type": "string",
+            "enum": [
+              "LOCAL",
+              "BSC",
+              "BSC_TEST"
+            ],
+            "default": "BSC"
+          },
+          "address": {
+            "type": "string"
+          },
+          "sbtId": {
+            "type": "number"
+          },
+          "txHash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "option",
+          "chainKey",
+          "address",
+          "sbtId",
+          "txHash"
+        ]
+      },
+      "UserChangeSbtDto": {
+        "type": "object",
+        "properties": {
+          "chainKey": {
+            "type": "string",
+            "enum": [
+              "LOCAL",
+              "BSC",
+              "BSC_TEST"
+            ],
+            "default": "BSC"
+          },
+          "sbtId": {
+            "type": "number"
+          },
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "txHash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "chainKey",
+          "sbtId",
+          "from",
+          "to",
+          "txHash"
+        ]
+      },
+      "SoulBoundToken": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "sbtId": {
+            "type": "number"
+          },
+          "chainKey": {
+            "type": "string"
+          },
+          "txHash": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "serverStatus": {
+            "type": "string"
+          },
+          "error": {
+            "type": "string"
+          },
+          "createdAt": {
+            "format": "date-time",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "sbtId",
+          "chainKey",
+          "txHash",
+          "status",
+          "serverStatus",
+          "error",
+          "createdAt"
+        ]
+      },
+      "CreateFavoriteDto": {
+        "type": "object",
+        "properties": {
+          "chainKey": {
+            "type": "string",
+            "enum": [
+              "LOCAL",
+              "BSC",
+              "BSC_TEST"
+            ],
+            "default": "BSC"
+          },
+          "address": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "chainKey",
+          "address"
+        ]
+      },
+      "Favorite": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  }
+}

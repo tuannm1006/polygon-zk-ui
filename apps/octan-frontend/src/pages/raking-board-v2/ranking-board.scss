@@ -1,0 +1,45 @@
+.ranking-banner {
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  background-position: right;
+}
+
+
+
+.ranking-board {
+  .slick-dots {
+    bottom: 30px;
+    li {
+      width: auto;
+      margin: 0;
+    }
+    .ranking-banner-paging {
+      width: 24px;
+      height: 4px;
+      background: #8A939B;
+      border-radius: 3px;
+      margin: 0 3px;
+    }
+    .slick-active {
+      .ranking-banner-paging {
+        width: 50px;
+        background: linear-gradient(90deg, #00FE7E 0%, #00C4FE 100%);
+      }
+    }
+  
+  }
+  .rounded12 {
+    border-radius: 12px !important;
+  }
+
+  .text-white {
+    color: #ffffff !important;
+  }
+
+  .box {
+    border-radius: 24px;
+    padding: 24px;
+  }
+}

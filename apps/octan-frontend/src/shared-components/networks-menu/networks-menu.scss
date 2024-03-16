@@ -1,0 +1,28 @@
+#menu-appbar .MuiMenu-paper {
+  border: 1px solid #494949;
+  margin-top: 25px;
+  @apply bg-black #{!important};
+}
+
+.MuiButtonBase-root.network-menu-dropdown {
+  @apply py-1 px-2 md:py-2;
+  border: 1.5px solid #494949;
+  border-radius: 8px;
+  background-color: #23231e;
+
+  svg {
+    @apply w-4 h-4 md:w-6 md:h-6;
+  }
+}
+
+.network-menu-dropdown,
+.network-menu-item {
+    img {
+        @apply w-5 h-5 md:w-8 md:h-8;
+      }
+}
+
+li:not(:last-child) .network-menu-item {
+  border-bottom: 1px solid #494949;
+  @apply pb-3;
+}

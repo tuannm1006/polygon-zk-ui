@@ -1,0 +1,32 @@
+.app-header header {
+  @apply h-[54px] md:h-[90px];
+  justify-content: center;
+
+  background-color: #000;
+  border-bottom: 1px solid #3e3e3e;
+  box-shadow: 0px -1px 12px rgba(255, 255, 255, 0.25);
+}
+
+.app-header-v2 header {
+  @apply h-[54px] md:h-[80px];
+  justify-content: center;
+
+  background: #ffffff;
+  border-bottom: 1px solid #f2f2f2;
+  box-shadow: 0px -1px 12px rgba(255, 255, 255, 0.25);
+
+
+  .nav {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (max-width: 767px) {
+      padding: 0 16px;
+    }
+
+    @media screen and (min-width: 768px) {
+      padding: 0 80px;
+    }
+  }
+}

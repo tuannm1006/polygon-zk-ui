@@ -1,0 +1,15 @@
+.MuiInputBase-input {
+  // @apply text-sm md:text-lg #{!important};
+}
+
+.MuiTextField-root.font-bold input {
+  font-weight: 700;
+}
+
+.MuiFormHelperText-root:not(.Mui-error) {
+  @include linear-text();
+}
+
+.input-linear input {
+  @include linear-text();
+}

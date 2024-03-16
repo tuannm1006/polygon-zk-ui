@@ -1,0 +1,44 @@
+name: release_deploy_v2
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Version to deploy, eg: 0.0.3'
+        required: true
+     
+permissions:
+  id-token: write # required to use OIDC authentication
+  contents: read # required to checkout the code from the repo
+  deployments: write
+  
+concurrency: 
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: mainnet
+    steps:
+    - run: echo "RELEASE_VERSION=${{ github.event.inputs.tag }}" >> $GITHUB_ENV
+    - name: Config AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        role-to-assume: ${{ vars.OCTAN_INFRA_AWS_ROLE }}
+        role-duration-seconds: 900
+        aws-region: ${{ vars.OCTAN_INFRA_AWS_REGION }}
+    - name: Download the build artifact version `${{env.RELEASE_VERSION}}`
+      run: |
+        aws s3 cp s3://${{ vars.OCTAN_INFRA_ARTIFACT_BUCKET }}/release/soulbound/frontend/soundbound-frontend-${RELEASE_VERSION}.tar.gz .
+        mkdir ./artifact
+        tar -xvzf soundbound-frontend-${RELEASE_VERSION}.tar.gz -C artifact
+    - name: Publish artifact version `${{env.RELEASE_VERSION}}` to Cloudflare Pages
+      uses: cloudflare/pages-action@1
+      with:
+        apiToken: ${{ secrets.OCTAN_INFRA_CF_TOKEN }}
+        accountId: ${{ vars.OCTAN_INFRA_CF_ACCOUNT }}
+        projectName: octan-frontend-v2
+        directory: artifact
+        gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+        branch: main

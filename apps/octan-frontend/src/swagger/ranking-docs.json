@@ -1,0 +1,530 @@
+{
+  "openapi": "3.0.0",
+  "paths": {
+    "/rankings": {
+      "get": {
+        "operationId": "RankingController_getRankings",
+        "parameters": [
+          {
+            "name": "chain_key",
+            "required": true,
+            "in": "query",
+            "example": "BSC",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "address",
+            "required": false,
+            "in": "query",
+            "example": "0x0000000000000000000000000000000000000000",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sort",
+            "required": false,
+            "in": "query",
+            "example": "reputation_score",
+            "schema": {
+              "enum": [
+                "reputation_score",
+                "total_gas_spent",
+                "total_degree"
+              ],
+              "type": "string"
+            }
+          },
+          {
+            "name": "order",
+            "required": false,
+            "in": "query",
+            "example": "DESC",
+            "schema": {
+              "enum": [
+                "ASC",
+                "DESC"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TopReputation"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/rankings/dashboard": {
+      "get": {
+        "operationId": "RankingController_getDashboard",
+        "parameters": [
+          {
+            "name": "data_keys",
+            "required": true,
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "total_transactions",
+                  "total_gas_spent",
+                  "total_degree",
+                  "total_reputation_score"
+                ]
+              }
+            }
+          },
+          {
+            "name": "timeframe_number",
+            "required": true,
+            "in": "query",
+            "example": 8,
+            "schema": {
+              "type": "number"
+            }
+          },
+          {
+            "name": "timeframe_type",
+            "required": true,
+            "in": "query",
+            "example": "1H",
+            "schema": {
+              "enum": [
+                "1H",
+                "1D",
+                "3D",
+                "1W",
+                "1M",
+                "1Y"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Succesfully return dashboard data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DashboardDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/rankings/reputation-scores": {
+      "get": {
+        "operationId": "RankingController_getReputationScores",
+        "parameters": [
+          {
+            "name": "addresses",
+            "required": true,
+            "in": "query",
+            "example": [
+              "0x0000000000000000000000000000000000000000"
+            ],
+            "schema": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          {
+            "name": "chain_key",
+            "required": true,
+            "in": "query",
+            "example": "BSC",
+            "schema": {
+              "enum": [
+                "LOCAL",
+                "BSC",
+                "BSC_TEST"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Succesfully return reputation scores of given addresses",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/highlights": {
+      "get": {
+        "operationId": "HighlightController_getRankings",
+        "parameters": [
+          {
+            "name": "page",
+            "required": false,
+            "in": "query",
+            "schema": {
+              "minimum": 1,
+              "default": 1,
+              "type": "number"
+            }
+          },
+          {
+            "name": "take",
+            "required": false,
+            "in": "query",
+            "schema": {
+              "minimum": 1,
+              "maximum": 50,
+              "default": 10,
+              "type": "number"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully received model list",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/Paging"
+                    },
+                    {
+                      "properties": {
+                        "data": {
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/Highlight"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "info": {
+    "title": "Soulbound Ranking API",
+    "description": "RESTful API for Octan Soulbound Ranking",
+    "version": "1.5",
+    "contact": {}
+  },
+  "tags": [],
+  "servers": [],
+  "components": {
+    "schemas": {
+      "TopReputation": {
+        "type": "object",
+        "properties": {
+          "top_number": {
+            "type": "number"
+          },
+          "address": {
+            "type": "string"
+          },
+          "chain_key": {
+            "type": "string",
+            "enum": [
+              "LOCAL",
+              "BSC",
+              "BSC_TEST"
+            ],
+            "default": "BSC"
+          },
+          "time": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "identity": {
+            "type": "string"
+          },
+          "reputation_score": {
+            "type": "number"
+          },
+          "total_transactions": {
+            "type": "number"
+          },
+          "total_transfer": {
+            "type": "number"
+          },
+          "total_receive": {
+            "type": "number"
+          },
+          "total_gas_spent": {
+            "type": "number"
+          },
+          "total_degree": {
+            "type": "number"
+          },
+          "total_in_degree": {
+            "type": "number"
+          },
+          "total_out_degree": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "top_number",
+          "address",
+          "chain_key",
+          "time",
+          "identity",
+          "reputation_score",
+          "total_transactions",
+          "total_transfer",
+          "total_receive",
+          "total_gas_spent",
+          "total_degree",
+          "total_in_degree",
+          "total_out_degree"
+        ]
+      },
+      "DashboardOptions": {
+        "type": "object",
+        "properties": {
+          "data_keys": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "total_transactions",
+                "total_gas_spent",
+                "total_degree",
+                "total_reputation_score"
+              ]
+            }
+          },
+          "timeframe_number": {
+            "type": "number",
+            "example": 8
+          },
+          "timeframe_type": {
+            "type": "string",
+            "enum": [
+              "1H",
+              "1D",
+              "3D",
+              "1W",
+              "1M",
+              "1Y"
+            ],
+            "example": "1H"
+          }
+        },
+        "required": [
+          "data_keys",
+          "timeframe_number",
+          "timeframe_type"
+        ]
+      },
+      "TimeframeData": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "timeframe_pivot": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "reputation_score": {
+            "type": "number"
+          },
+          "transaction": {
+            "type": "number"
+          },
+          "gas_spent": {
+            "type": "number"
+          },
+          "total_degree": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "name",
+          "timeframe_pivot"
+        ]
+      },
+      "DashboardDto": {
+        "type": "object",
+        "properties": {
+          "options": {
+            "$ref": "#/components/schemas/DashboardOptions"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TimeframeData"
+            }
+          }
+        },
+        "required": [
+          "options",
+          "data"
+        ]
+      },
+      "PagingMeta": {
+        "type": "object",
+        "properties": {
+          "page": {
+            "type": "number"
+          },
+          "take": {
+            "type": "number"
+          },
+          "itemCount": {
+            "type": "number"
+          },
+          "pageCount": {
+            "type": "number"
+          },
+          "hasPreviousPage": {
+            "type": "boolean"
+          },
+          "hasNextPage": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "page",
+          "take",
+          "itemCount",
+          "pageCount",
+          "hasPreviousPage",
+          "hasNextPage"
+        ]
+      },
+      "Paging": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "type": "array"
+            }
+          },
+          "meta": {
+            "$ref": "#/components/schemas/PagingMeta"
+          }
+        },
+        "required": [
+          "data",
+          "meta"
+        ]
+      },
+      "Ranking": {
+        "type": "object",
+        "properties": {
+          "address": {
+            "type": "string"
+          },
+          "chain_key": {
+            "type": "string",
+            "enum": [
+              "LOCAL",
+              "BSC",
+              "BSC_TEST"
+            ],
+            "default": "BSC"
+          },
+          "time": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "identity": {
+            "type": "string"
+          },
+          "reputation_score": {
+            "type": "number"
+          },
+          "total_transactions": {
+            "type": "number"
+          },
+          "total_transfer": {
+            "type": "number"
+          },
+          "total_receive": {
+            "type": "number"
+          },
+          "total_gas_spent": {
+            "type": "number"
+          },
+          "total_degree": {
+            "type": "number"
+          },
+          "total_in_degree": {
+            "type": "number"
+          },
+          "total_out_degree": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "address",
+          "chain_key",
+          "time",
+          "identity",
+          "reputation_score",
+          "total_transactions",
+          "total_transfer",
+          "total_receive",
+          "total_gas_spent",
+          "total_degree",
+          "total_in_degree",
+          "total_out_degree"
+        ]
+      },
+      "Highlight": {
+        "type": "object",
+        "properties": {
+          "metric_key": {
+            "type": "string"
+          },
+          "time": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "metric_key",
+          "time",
+          "value"
+        ]
+      },
+      "CsvImportHistory": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  }
+}

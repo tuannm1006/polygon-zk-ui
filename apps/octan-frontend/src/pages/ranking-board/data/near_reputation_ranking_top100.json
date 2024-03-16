@@ -1,0 +1,702 @@
+[
+  {
+    "No": 0,
+    "Address": "token.sweat",
+    "ReputationScore": 264.8150473,
+    "TotalTransactions": 36401,
+    "InTransactions": 36401
+  },
+  {
+    "No": 1,
+    "Address": "tge-lockup.sweat",
+    "ReputationScore": 82.38767221,
+    "TotalTransactions": 16798,
+    "InTransactions": 16798
+  },
+  {
+    "No": 2,
+    "Address": "embr.playember_reserve.near",
+    "ReputationScore": 8.240390269,
+    "TotalTransactions": 883,
+    "InTransactions": 883
+  },
+  {
+    "No": 3,
+    "Address": "app.nearcrowd.near",
+    "ReputationScore": 7.458222141,
+    "TotalTransactions": 866,
+    "InTransactions": 866
+  },
+  {
+    "No": 4,
+    "Address": "5c33c6218d47e00ef229f60da78d0897e1ee9665312550b8afd5f9c7bc6957d2",
+    "ReputationScore": 2.726601372,
+    "TotalTransactions": 786,
+    "InTransactions": 195
+  },
+  {
+    "No": 5,
+    "Address": "spot.spin-fi.near",
+    "ReputationScore": 2.656361669,
+    "TotalTransactions": 520,
+    "InTransactions": 520
+  },
+  {
+    "No": 6,
+    "Address": "a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near",
+    "ReputationScore": 2.5005511,
+    "TotalTransactions": 589,
+    "InTransactions": 589
+  },
+  {
+    "No": 7,
+    "Address": "login.learnclub.near",
+    "ReputationScore": 1.81879485,
+    "TotalTransactions": 198,
+    "InTransactions": 198
+  },
+  {
+    "No": 8,
+    "Address": "wrap.near",
+    "ReputationScore": 1.471060378,
+    "TotalTransactions": 395,
+    "InTransactions": 395
+  },
+  {
+    "No": 9,
+    "Address": "v2_0_2.perp.spin-fi.near",
+    "ReputationScore": 1.382773329,
+    "TotalTransactions": 323,
+    "InTransactions": 323
+  },
+  {
+    "No": 10,
+    "Address": "aurora",
+    "ReputationScore": 1.086436662,
+    "TotalTransactions": 151,
+    "InTransactions": 151
+  },
+  {
+    "No": 11,
+    "Address": "ccb91e1db61e8d7e1d4ae3e043001140132959a86ee35a548b6563a46284a6ea",
+    "ReputationScore": 0.990720921,
+    "TotalTransactions": 182,
+    "InTransactions": 57
+  },
+  {
+    "No": 12,
+    "Address": "app.l2e.near",
+    "ReputationScore": 0.897902128,
+    "TotalTransactions": 106,
+    "InTransactions": 106
+  },
+  {
+    "No": 13,
+    "Address": "boostfarm.ref-labs.near",
+    "ReputationScore": 0.893002522,
+    "TotalTransactions": 195,
+    "InTransactions": 194
+  },
+  {
+    "No": 14,
+    "Address": "d73888a2619c7761735f23c798536145dfa87f9306b5f21275eb4b1a7ba971b9",
+    "ReputationScore": 0.879231818,
+    "TotalTransactions": 150,
+    "InTransactions": 58
+  },
+  {
+    "No": 15,
+    "Address": "x.paras.near",
+    "ReputationScore": 0.821453925,
+    "TotalTransactions": 111,
+    "InTransactions": 111
+  },
+  {
+    "No": 16,
+    "Address": "near",
+    "ReputationScore": 0.735596004,
+    "TotalTransactions": 91,
+    "InTransactions": 91
+  },
+  {
+    "No": 17,
+    "Address": "ref-dev-teller.near",
+    "ReputationScore": 0.728104245,
+    "TotalTransactions": 1,
+    "InTransactions": 1
+  },
+  {
+    "No": 18,
+    "Address": "5623c9fbb2f1b6b12ba775031dbf52fab977a8b466b64f153f3743069e13bb34",
+    "ReputationScore": 0.713809587,
+    "TotalTransactions": 211,
+    "InTransactions": 64
+  },
+  {
+    "No": 19,
+    "Address": "zomland.near",
+    "ReputationScore": 0.678114629,
+    "TotalTransactions": 83,
+    "InTransactions": 83
+  },
+  {
+    "No": 20,
+    "Address": "marketplace.paras.near",
+    "ReputationScore": 0.638882715,
+    "TotalTransactions": 120,
+    "InTransactions": 120
+  },
+  {
+    "No": 21,
+    "Address": "zavodil.poolv1.near",
+    "ReputationScore": 0.469976729,
+    "TotalTransactions": 48,
+    "InTransactions": 48
+  },
+  {
+    "No": 22,
+    "Address": "25ab96ddd0d9a8e0ab48b45c2ef7473a83c4ff7e49239b46613b3d688e024731",
+    "ReputationScore": 0.468104099,
+    "TotalTransactions": 128,
+    "InTransactions": 34
+  },
+  {
+    "No": 23,
+    "Address": "astro-stakers.poolv1.near",
+    "ReputationScore": 0.398835447,
+    "TotalTransactions": 51,
+    "InTransactions": 51
+  },
+  {
+    "No": 24,
+    "Address": "canvas-war.feiyu.near",
+    "ReputationScore": 0.384816226,
+    "TotalTransactions": 41,
+    "InTransactions": 41
+  },
+  {
+    "No": 25,
+    "Address": "asset-manager.orderly-network.near",
+    "ReputationScore": 0.383743926,
+    "TotalTransactions": 61,
+    "InTransactions": 61
+  },
+  {
+    "No": 26,
+    "Address": "pixeltoken.near",
+    "ReputationScore": 0.383684468,
+    "TotalTransactions": 45,
+    "InTransactions": 45
+  },
+  {
+    "No": 27,
+    "Address": "dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near",
+    "ReputationScore": 0.377200261,
+    "TotalTransactions": 105,
+    "InTransactions": 105
+  },
+  {
+    "No": 28,
+    "Address": "601483a1b22699b636f1df800b9b709466eba4e1d5ce7c2e1e20317af8bbd1f3",
+    "ReputationScore": 0.329988569,
+    "TotalTransactions": 71,
+    "InTransactions": 20
+  },
+  {
+    "No": 29,
+    "Address": "atomic-nodes.poolv1.near",
+    "ReputationScore": 0.323757656,
+    "TotalTransactions": 27,
+    "InTransactions": 27
+  },
+  {
+    "No": 30,
+    "Address": "v2.ref-finance.near",
+    "ReputationScore": 0.32181094,
+    "TotalTransactions": 110,
+    "InTransactions": 110
+  },
+  {
+    "No": 31,
+    "Address": "token.v2.ref-finance.near",
+    "ReputationScore": 0.293314663,
+    "TotalTransactions": 104,
+    "InTransactions": 104
+  },
+  {
+    "No": 32,
+    "Address": "423df0a6640e9467769c55a573f15b9ee999dc8970048959c72890abf5cc3a8e",
+    "ReputationScore": 0.277188927,
+    "TotalTransactions": 230,
+    "InTransactions": 19
+  },
+  {
+    "No": 33,
+    "Address": "epic.poolv1.near",
+    "ReputationScore": 0.274700395,
+    "TotalTransactions": 30,
+    "InTransactions": 30
+  },
+  {
+    "No": 34,
+    "Address": "beline.near",
+    "ReputationScore": 0.271608216,
+    "TotalTransactions": 30,
+    "InTransactions": 28
+  },
+  {
+    "No": 35,
+    "Address": "quizchain.near",
+    "ReputationScore": 0.269277482,
+    "TotalTransactions": 33,
+    "InTransactions": 33
+  },
+  {
+    "No": 36,
+    "Address": "stakin.poolv1.near",
+    "ReputationScore": 0.257405453,
+    "TotalTransactions": 27,
+    "InTransactions": 27
+  },
+  {
+    "No": 37,
+    "Address": "9ac270728d9baccd493940dc076150b8e42423d68803b1c811b66d4ce75f975e",
+    "ReputationScore": 0.254778207,
+    "TotalTransactions": 65,
+    "InTransactions": 18
+  },
+  {
+    "No": 38,
+    "Address": "everstake.poolv1.near",
+    "ReputationScore": 0.239772895,
+    "TotalTransactions": 29,
+    "InTransactions": 29
+  },
+  {
+    "No": 39,
+    "Address": "spin-nft-contract.near",
+    "ReputationScore": 0.223670191,
+    "TotalTransactions": 41,
+    "InTransactions": 41
+  },
+  {
+    "No": 40,
+    "Address": "social.near",
+    "ReputationScore": 0.222294264,
+    "TotalTransactions": 27,
+    "InTransactions": 27
+  },
+  {
+    "No": 41,
+    "Address": "aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near",
+    "ReputationScore": 0.212145386,
+    "TotalTransactions": 55,
+    "InTransactions": 55
+  },
+  {
+    "No": 42,
+    "Address": "d93f6f23f55e5a4723e4c4dd063233947bb124d58ef948f6fab04a582e046c00",
+    "ReputationScore": 0.197232678,
+    "TotalTransactions": 40,
+    "InTransactions": 16
+  },
+  {
+    "No": 43,
+    "Address": "token.elcafecartel.near",
+    "ReputationScore": 0.193754956,
+    "TotalTransactions": 34,
+    "InTransactions": 34
+  },
+  {
+    "No": 44,
+    "Address": "contract.main.burrow.near",
+    "ReputationScore": 0.190048065,
+    "TotalTransactions": 32,
+    "InTransactions": 32
+  },
+  {
+    "No": 45,
+    "Address": "allnodes.poolv1.near",
+    "ReputationScore": 0.187161827,
+    "TotalTransactions": 17,
+    "InTransactions": 17
+  },
+  {
+    "No": 46,
+    "Address": "eb3c2bfd6bf357f433be30292d78b23f948ee75f63baca2cc5f56cff1751c294",
+    "ReputationScore": 0.187142034,
+    "TotalTransactions": 37,
+    "InTransactions": 12
+  },
+  {
+    "No": 47,
+    "Address": "storage.herewallet.near",
+    "ReputationScore": 0.162108955,
+    "TotalTransactions": 21,
+    "InTransactions": 21
+  },
+  {
+    "No": 48,
+    "Address": "world.pumpopoly.near",
+    "ReputationScore": 0.162063754,
+    "TotalTransactions": 17,
+    "InTransactions": 17
+  },
+  {
+    "No": 49,
+    "Address": "9388eafd85b0b9972c08d557a1208a274e928d0147108bb3782950fc39d1a574",
+    "ReputationScore": 0.159733021,
+    "TotalTransactions": 44,
+    "InTransactions": 31
+  },
+  {
+    "No": 50,
+    "Address": "meta-pool.near",
+    "ReputationScore": 0.159377892,
+    "TotalTransactions": 33,
+    "InTransactions": 33
+  },
+  {
+    "No": 51,
+    "Address": "0d584a4cbbfd9a4878d816512894e65918e54fae13df39a6f520fc90caea2fb0",
+    "ReputationScore": 0.15490536,
+    "TotalTransactions": 27,
+    "InTransactions": 12
+  },
+  {
+    "No": 52,
+    "Address": "v2-nearx.stader-labs.near",
+    "ReputationScore": 0.153352043,
+    "TotalTransactions": 39,
+    "InTransactions": 39
+  },
+  {
+    "No": 53,
+    "Address": "v1.orderbook.near",
+    "ReputationScore": 0.150895505,
+    "TotalTransactions": 26,
+    "InTransactions": 26
+  },
+  {
+    "No": 54,
+    "Address": "2c4106971c0d9d4b7e9e05a6efab71de4be77c0b023af5ec4fde46fb796fb9b0",
+    "ReputationScore": 0.147646467,
+    "TotalTransactions": 8,
+    "InTransactions": 4
+  },
+  {
+    "No": 55,
+    "Address": "berryclub.ek.near",
+    "ReputationScore": 0.147465439,
+    "TotalTransactions": 19,
+    "InTransactions": 19
+  },
+  {
+    "No": 56,
+    "Address": "fusotao-token.near",
+    "ReputationScore": 0.146425675,
+    "TotalTransactions": 20,
+    "InTransactions": 20
+  },
+  {
+    "No": 57,
+    "Address": "fusotao.octopus-registry.near",
+    "ReputationScore": 0.143761385,
+    "TotalTransactions": 19,
+    "InTransactions": 19
+  },
+  {
+    "No": 58,
+    "Address": "aurora.pool.near",
+    "ReputationScore": 0.140852073,
+    "TotalTransactions": 20,
+    "InTransactions": 20
+  },
+  {
+    "No": 59,
+    "Address": "pandateam.poolv1.near",
+    "ReputationScore": 0.131113438,
+    "TotalTransactions": 20,
+    "InTransactions": 20
+  },
+  {
+    "No": 60,
+    "Address": "b04656820f98d9cd90aa8ecc0d1b2c12a3a457d63fad61eca9805ef868f19edd",
+    "ReputationScore": 0.129965717,
+    "TotalTransactions": 9,
+    "InTransactions": 9
+  },
+  {
+    "No": 61,
+    "Address": "f69d33a076ea5b8426697747ba879451871d2f94e11e088da651fc1a04b1ba71",
+    "ReputationScore": 0.128701521,
+    "TotalTransactions": 10,
+    "InTransactions": 9
+  },
+  {
+    "No": 62,
+    "Address": "f5cfbc74057c610c8ef151a439252680ac68c6dc.factory.bridge.near",
+    "ReputationScore": 0.126583728,
+    "TotalTransactions": 25,
+    "InTransactions": 25
+  },
+  {
+    "No": 63,
+    "Address": "e580c4fe85c6c956ee3bfecc5007ceb525dd5339d0dc580b81ce939ac61298bb",
+    "ReputationScore": 0.122288102,
+    "TotalTransactions": 11,
+    "InTransactions": 5
+  },
+  {
+    "No": 64,
+    "Address": "f30b272e0b7f1f1d1c183287586f0a988d73b72de66fd7dc199f4be5849b2537",
+    "ReputationScore": 0.120744563,
+    "TotalTransactions": 2,
+    "InTransactions": 1
+  },
+  {
+    "No": 65,
+    "Address": "c4e3fba987e5ea8542e9339ba7a0000ef5be4bbdceb173cecc510d6fda02926d",
+    "ReputationScore": 0.11996414,
+    "TotalTransactions": 2,
+    "InTransactions": 1
+  },
+  {
+    "No": 66,
+    "Address": "5bd5def83ca2b0c01c5c4b51614365d901f32637562833ae6901fe1cac67e583",
+    "ReputationScore": 0.11996414,
+    "TotalTransactions": 1,
+    "InTransactions": 1
+  },
+  {
+    "No": 67,
+    "Address": "staking.paras.near",
+    "ReputationScore": 0.119811211,
+    "TotalTransactions": 17,
+    "InTransactions": 17
+  },
+  {
+    "No": 68,
+    "Address": "d4b5683540ace21608676352cdcdc950fe3dc79189452c4429dd06e92e195189",
+    "ReputationScore": 0.116570731,
+    "TotalTransactions": 2,
+    "InTransactions": 1
+  },
+  {
+    "No": 69,
+    "Address": "smart-stake.poolv1.near",
+    "ReputationScore": 0.115854272,
+    "TotalTransactions": 14,
+    "InTransactions": 14
+  },
+  {
+    "No": 70,
+    "Address": "usn-unofficial.pool.near",
+    "ReputationScore": 0.114527417,
+    "TotalTransactions": 26,
+    "InTransactions": 26
+  },
+  {
+    "No": 71,
+    "Address": "7981ae28a8314f939c7b2d0cb4fca0cb0ea70e5c022b219425bc9c4d5723e8ce",
+    "ReputationScore": 0.112928789,
+    "TotalTransactions": 24,
+    "InTransactions": 8
+  },
+  {
+    "No": 72,
+    "Address": "coin.asac.near",
+    "ReputationScore": 0.108168757,
+    "TotalTransactions": 16,
+    "InTransactions": 16
+  },
+  {
+    "No": 73,
+    "Address": "staking-pool.sweatmint.near",
+    "ReputationScore": 0.10728914,
+    "TotalTransactions": 10,
+    "InTransactions": 10
+  },
+  {
+    "No": 74,
+    "Address": "9c248cdb14afab1aae977deb032711301bc0e0270d970e72b3b195687dfcd871",
+    "ReputationScore": 0.103795424,
+    "TotalTransactions": 11,
+    "InTransactions": 10
+  },
+  {
+    "No": 75,
+    "Address": "token.stlb.near",
+    "ReputationScore": 0.103581259,
+    "TotalTransactions": 26,
+    "InTransactions": 26
+  },
+  {
+    "No": 76,
+    "Address": "linear-protocol.near",
+    "ReputationScore": 0.099955866,
+    "TotalTransactions": 21,
+    "InTransactions": 21
+  },
+  {
+    "No": 77,
+    "Address": "dev-perk-conliq2.near",
+    "ReputationScore": 0.095513205,
+    "TotalTransactions": 4,
+    "InTransactions": 3
+  },
+  {
+    "No": 78,
+    "Address": "stakesabai.poolv1.near",
+    "ReputationScore": 0.093643654,
+    "TotalTransactions": 10,
+    "InTransactions": 10
+  },
+  {
+    "No": 79,
+    "Address": "priceoracle.near",
+    "ReputationScore": 0.092469403,
+    "TotalTransactions": 22,
+    "InTransactions": 22
+  },
+  {
+    "No": 80,
+    "Address": "gold.l2e.near",
+    "ReputationScore": 0.092452522,
+    "TotalTransactions": 18,
+    "InTransactions": 18
+  },
+  {
+    "No": 81,
+    "Address": "157ed2f721588d5c012aee80d028c252d68149f54167b9522e08fb2dcee61096",
+    "ReputationScore": 0.092064835,
+    "TotalTransactions": 19,
+    "InTransactions": 8
+  },
+  {
+    "No": 82,
+    "Address": "staking.elcafecartel.near",
+    "ReputationScore": 0.09143133,
+    "TotalTransactions": 20,
+    "InTransactions": 20
+  },
+  {
+    "No": 83,
+    "Address": "near-fans.poolv1.near",
+    "ReputationScore": 0.090857002,
+    "TotalTransactions": 11,
+    "InTransactions": 11
+  },
+  {
+    "No": 84,
+    "Address": "ambernft.near",
+    "ReputationScore": 0.08531297,
+    "TotalTransactions": 8,
+    "InTransactions": 8
+  },
+  {
+    "No": 85,
+    "Address": "b3b3bccd6ceee15c1610421568a03b5dcff6d1672374840d4da2c38c15ba0109",
+    "ReputationScore": 0.084864391,
+    "TotalTransactions": 9,
+    "InTransactions": 6
+  },
+  {
+    "No": 86,
+    "Address": "usn",
+    "ReputationScore": 0.08452433,
+    "TotalTransactions": 23,
+    "InTransactions": 23
+  },
+  {
+    "No": 87,
+    "Address": "jorgeantonio21.near",
+    "ReputationScore": 0.082796227,
+    "TotalTransactions": 3,
+    "InTransactions": 2
+  },
+  {
+    "No": 88,
+    "Address": "tonic_goblin.enleap.near",
+    "ReputationScore": 0.08064927,
+    "TotalTransactions": 12,
+    "InTransactions": 12
+  },
+  {
+    "No": 89,
+    "Address": "token.pembrock.near",
+    "ReputationScore": 0.078217681,
+    "TotalTransactions": 26,
+    "InTransactions": 26
+  },
+  {
+    "No": 90,
+    "Address": "dc6b4c8821dbe652b763e3bfadfea548137b29b97408c8b411ad72acff94e63f",
+    "ReputationScore": 0.076588591,
+    "TotalTransactions": 5,
+    "InTransactions": 5
+  },
+  {
+    "No": 91,
+    "Address": "binancenode1.poolv1.near",
+    "ReputationScore": 0.076177928,
+    "TotalTransactions": 8,
+    "InTransactions": 8
+  },
+  {
+    "No": 92,
+    "Address": "bc2a07ba6c0ada1f0aa32c202ee48939a719da2cb740b8528a0897b4f5a05def",
+    "ReputationScore": 0.075833407,
+    "TotalTransactions": 7,
+    "InTransactions": 6
+  },
+  {
+    "No": 93,
+    "Address": "6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near",
+    "ReputationScore": 0.073201256,
+    "TotalTransactions": 23,
+    "InTransactions": 23
+  },
+  {
+    "No": 94,
+    "Address": "house_nearcrash.near",
+    "ReputationScore": 0.07271944,
+    "TotalTransactions": 9,
+    "InTransactions": 7
+  },
+  {
+    "No": 95,
+    "Address": "005a622e5b987917f533d62c54c5c88414057eb436342fbd0b7a842153135a7b",
+    "ReputationScore": 0.072332336,
+    "TotalTransactions": 1,
+    "InTransactions": 1
+  },
+  {
+    "No": 96,
+    "Address": "galactic.poolv1.near",
+    "ReputationScore": 0.071997846,
+    "TotalTransactions": 9,
+    "InTransactions": 9
+  },
+  {
+    "No": 97,
+    "Address": "bridge-validator.sputnik-dao.near",
+    "ReputationScore": 0.071165159,
+    "TotalTransactions": 7,
+    "InTransactions": 7
+  },
+  {
+    "No": 98,
+    "Address": "kosmos_and_p2p.poolv1.near",
+    "ReputationScore": 0.069058405,
+    "TotalTransactions": 9,
+    "InTransactions": 9
+  },
+  {
+    "No": 99,
+    "Address": "gear.enleap.near",
+    "ReputationScore": 0.068283797,
+    "TotalTransactions": 14,
+    "InTransactions": 14
+  }
+]

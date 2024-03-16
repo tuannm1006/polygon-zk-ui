@@ -1,0 +1,802 @@
+[
+  {
+    "No": 0,
+    "Address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+    "Identity": "TetherToken",
+    "ReputationScore": 42.842512124702004,
+    "TotalTransactions": 4412,
+    "InTransactions": 4412
+  },
+  {
+    "No": 1,
+    "Address": "THwa8pHMDRBKubnYy4UJEx6ky2Nf9AGdcV",
+    "Identity": "",
+    "ReputationScore": 2.201846493719156,
+    "TotalTransactions": 330,
+    "InTransactions": 196
+  },
+  {
+    "No": 2,
+    "Address": "TTrSih3P7g2FFckpbQY3P89wiZVyiKsAxt",
+    "Identity": "",
+    "ReputationScore": 2.182203406739625,
+    "TotalTransactions": 363,
+    "InTransactions": 363
+  },
+  {
+    "No": 3,
+    "Address": "TDoXUNZ6PajKuiUkcYg3EDSV9bnqGqsbcf",
+    "Identity": "",
+    "ReputationScore": 1.9847102597799942,
+    "TotalTransactions": 152,
+    "InTransactions": 84
+  },
+  {
+    "No": 4,
+    "Address": "TYJwJEC46v56Bh4GRyfoPMGUJkjzW6w9pp",
+    "Identity": "",
+    "ReputationScore": 1.3113191148836185,
+    "TotalTransactions": 117,
+    "InTransactions": 117
+  },
+  {
+    "No": 5,
+    "Address": "TYDzsYUEpvnYmQk4zGP9sWWcTEd2MiAtW6",
+    "Identity": "",
+    "ReputationScore": 1.2542728379358081,
+    "TotalTransactions": 161,
+    "InTransactions": 105
+  },
+  {
+    "No": 6,
+    "Address": "TUuF3a3Z4g1C3ui3EN4XLihDMGtgpSWPbM",
+    "Identity": "",
+    "ReputationScore": 1.1753701555400025,
+    "TotalTransactions": 222,
+    "InTransactions": 137
+  },
+  {
+    "No": 7,
+    "Address": "TTd9qHyjqiUkfTxe3gotbuTMpjU8LEbpkN",
+    "Identity": "",
+    "ReputationScore": 1.0119336344105532,
+    "TotalTransactions": 105,
+    "InTransactions": 54
+  },
+  {
+    "No": 8,
+    "Address": "TV6MuMXfmLbBqPZvBHdwFsDnQeVfnmiuSi",
+    "Identity": "",
+    "ReputationScore": 0.9767436834275524,
+    "TotalTransactions": 114,
+    "InTransactions": 44
+  },
+  {
+    "No": 9,
+    "Address": "TM1zzNDZD2DPASbKcgdVoTYhfmYgtfwx9R",
+    "Identity": "",
+    "ReputationScore": 0.7977535807467769,
+    "TotalTransactions": 156,
+    "InTransactions": 83
+  },
+  {
+    "No": 10,
+    "Address": "TW3WXRdrzU61oVdu8uQyxzGVfYefGqkCmt",
+    "Identity": "",
+    "ReputationScore": 0.7192237298254383,
+    "TotalTransactions": 89,
+    "InTransactions": 42
+  },
+  {
+    "No": 11,
+    "Address": "TAa47voWQuXfDTJvMEiV9G7ykv8jbYrGZa",
+    "Identity": "",
+    "ReputationScore": 0.6742947749705096,
+    "TotalTransactions": 62,
+    "InTransactions": 61
+  },
+  {
+    "No": 12,
+    "Address": "TGhtBNM3iDoJbzyRWUmJyAhxH4P71b3qfQ",
+    "Identity": "",
+    "ReputationScore": 0.6621919113920631,
+    "TotalTransactions": 256,
+    "InTransactions": 115
+  },
+  {
+    "No": 13,
+    "Address": "TVmQM7BP7GdMHKY9hUEBjttCTJSaDHN888",
+    "Identity": "",
+    "ReputationScore": 0.5795369163152037,
+    "TotalTransactions": 43,
+    "InTransactions": 31
+  },
+  {
+    "No": 14,
+    "Address": "TZDSbKHtAF7UJPZmTgbx7EvFCpgKHX295g",
+    "Identity": "",
+    "ReputationScore": 0.4663139898527377,
+    "TotalTransactions": 59,
+    "InTransactions": 33
+  },
+  {
+    "No": 15,
+    "Address": "TWS1onJnNTg8tJHomceqxBxTsUB1DHh7PV",
+    "Identity": "",
+    "ReputationScore": 0.44427114844444987,
+    "TotalTransactions": 49,
+    "InTransactions": 31
+  },
+  {
+    "No": 16,
+    "Address": "TGx3Lyc6rR14keStqfAK8u37euNFaq8uZ4",
+    "Identity": "",
+    "ReputationScore": 0.4435459887891891,
+    "TotalTransactions": 186,
+    "InTransactions": 52
+  },
+  {
+    "No": 17,
+    "Address": "TRi62fguDvwG9PKC7UCTbZSboiZRr9CAsC",
+    "Identity": "",
+    "ReputationScore": 0.4429964127998273,
+    "TotalTransactions": 42,
+    "InTransactions": 42
+  },
+  {
+    "No": 18,
+    "Address": "TXrauXw2wazRPZd2Q5tSYRnFveCyeaCign",
+    "Identity": "",
+    "ReputationScore": 0.4238956587004556,
+    "TotalTransactions": 44,
+    "InTransactions": 42
+  },
+  {
+    "No": 19,
+    "Address": "TUK9NdDaKhbxDFPdzDuDvhS62pC1S6gzXL",
+    "Identity": "",
+    "ReputationScore": 0.40468073379168057,
+    "TotalTransactions": 44,
+    "InTransactions": 23
+  },
+  {
+    "No": 20,
+    "Address": "TFp4V3S9JqJyQAMMCewyn4aAaLueJwzS7H",
+    "Identity": "",
+    "ReputationScore": 0.4045671742568702,
+    "TotalTransactions": 29,
+    "InTransactions": 28
+  },
+  {
+    "No": 21,
+    "Address": "TFrRVZFoHty7scd2a1q6BDxPU5fyqiB4iR",
+    "Identity": "",
+    "ReputationScore": 0.403387260988864,
+    "TotalTransactions": 89,
+    "InTransactions": 34
+  },
+  {
+    "No": 22,
+    "Address": "TX2EXp9DxWdbVoxvrTjPLPdr9CXbQ31upM",
+    "Identity": "",
+    "ReputationScore": 0.3987603828196064,
+    "TotalTransactions": 38,
+    "InTransactions": 22
+  },
+  {
+    "No": 23,
+    "Address": "TJQ562CKmUvjJ6GkWYuGJKXo9fstsDqqhH",
+    "Identity": "",
+    "ReputationScore": 0.39651484670856313,
+    "TotalTransactions": 42,
+    "InTransactions": 42
+  },
+  {
+    "No": 24,
+    "Address": "TM6RLvLJeHVeBrv4K1agm55KrJbNCaN49B",
+    "Identity": "",
+    "ReputationScore": 0.38858844246386937,
+    "TotalTransactions": 50,
+    "InTransactions": 26
+  },
+  {
+    "No": 25,
+    "Address": "TCdTEouRVBQpVcJAbYMUPFRRTSiuSY4BnU",
+    "Identity": "",
+    "ReputationScore": 0.38414418136240897,
+    "TotalTransactions": 69,
+    "InTransactions": 7
+  },
+  {
+    "No": 26,
+    "Address": "TWusZUMSCrGXnFHzLBdL5tYzbNoyGRGb1q",
+    "Identity": "",
+    "ReputationScore": 0.37358765884597783,
+    "TotalTransactions": 27,
+    "InTransactions": 27
+  },
+  {
+    "No": 27,
+    "Address": "TRz6BJACZuURrcsPeQ7DDhHF2Bp43ehLBM",
+    "Identity": "",
+    "ReputationScore": 0.36650550978208646,
+    "TotalTransactions": 62,
+    "InTransactions": 37
+  },
+  {
+    "No": 28,
+    "Address": "TNaRAoLUyYEV2uF7GUrzSjRQTU8v5ZJ5VR",
+    "Identity": "",
+    "ReputationScore": 0.3659027592911649,
+    "TotalTransactions": 46,
+    "InTransactions": 29
+  },
+  {
+    "No": 29,
+    "Address": "TFv8oYoK1QunDm6Cn8AnC4vDw2cviB9cxv",
+    "Identity": "",
+    "ReputationScore": 0.3350332410347827,
+    "TotalTransactions": 18,
+    "InTransactions": 10
+  },
+  {
+    "No": 30,
+    "Address": "",
+    "Identity": "",
+    "ReputationScore": 0.31663156777584167,
+    "TotalTransactions": 51,
+    "InTransactions": 51
+  },
+  {
+    "No": 31,
+    "Address": "TBCMSmdzuxvUf4FVFLmQCpMQQo5NR1Hv8z",
+    "Identity": "",
+    "ReputationScore": 0.29071764207254774,
+    "TotalTransactions": 30,
+    "InTransactions": 22
+  },
+  {
+    "No": 32,
+    "Address": "TH9DsRRVkKkNGNGLmWnikNzbDmTt7ENjWs",
+    "Identity": "",
+    "ReputationScore": 0.27849292461523156,
+    "TotalTransactions": 5,
+    "InTransactions": 4
+  },
+  {
+    "No": 33,
+    "Address": "TVxEqRucFcfZUpVVyAU5bLicsZGrcmu32B",
+    "Identity": "",
+    "ReputationScore": 0.2778798504494913,
+    "TotalTransactions": 27,
+    "InTransactions": 14
+  },
+  {
+    "No": 34,
+    "Address": "TXCESQhzS6tuBJwwqHjuEXwX6eriC3iEPW",
+    "Identity": "",
+    "ReputationScore": 0.2708562262216561,
+    "TotalTransactions": 5,
+    "InTransactions": 4
+  },
+  {
+    "No": 35,
+    "Address": "TAxZVPPbgRyxy6LtvqgjMpvywYBio3bfe3",
+    "Identity": "",
+    "ReputationScore": 0.26850215980536074,
+    "TotalTransactions": 36,
+    "InTransactions": 14
+  },
+  {
+    "No": 36,
+    "Address": "TLYCaS9cZErMpUuwjZQbkFvYqx6Zaq11hE",
+    "Identity": "",
+    "ReputationScore": 0.2635555412836424,
+    "TotalTransactions": 39,
+    "InTransactions": 24
+  },
+  {
+    "No": 37,
+    "Address": "TQn9Y2khEsLJW1ChVWFMSMeRDow5KcbLSE",
+    "Identity": "",
+    "ReputationScore": 0.25580800159953987,
+    "TotalTransactions": 22,
+    "InTransactions": 22
+  },
+  {
+    "No": 38,
+    "Address": "TNSGsq2QYRdcvxbg56JAoEpsve5F4FBuXL",
+    "Identity": "",
+    "ReputationScore": 0.24271709949853715,
+    "TotalTransactions": 28,
+    "InTransactions": 11
+  },
+  {
+    "No": 39,
+    "Address": "TPC2totaqvTPHL2zFxGvkVcPXLbsoCmTRX",
+    "Identity": "",
+    "ReputationScore": 0.23955150006007453,
+    "TotalTransactions": 15,
+    "InTransactions": 13
+  },
+  {
+    "No": 40,
+    "Address": "TUrbTkGNmf5iiyPN8SCTA1zCViW432bUfQ",
+    "Identity": "",
+    "ReputationScore": 0.23902447085551448,
+    "TotalTransactions": 41,
+    "InTransactions": 41
+  },
+  {
+    "No": 41,
+    "Address": "TJDENsfBJs4RFETt1X1W8wMDc8M5XnJhCe",
+    "Identity": "",
+    "ReputationScore": 0.23294781399578873,
+    "TotalTransactions": 117,
+    "InTransactions": 42
+  },
+  {
+    "No": 42,
+    "Address": "TUKjCSEKAqKsjPfj4vHz2KuWJhaj1jFYhy",
+    "Identity": "",
+    "ReputationScore": 0.22854324040566357,
+    "TotalTransactions": 21,
+    "InTransactions": 21
+  },
+  {
+    "No": 43,
+    "Address": "TYgFxMvvu2VHFJnxQf8fh1qVAeMfXZJZ3K",
+    "Identity": "",
+    "ReputationScore": 0.2259043259502547,
+    "TotalTransactions": 19,
+    "InTransactions": 16
+  },
+  {
+    "No": 44,
+    "Address": "TG8PRYF8UQBPUDL4MW5f8i11Dma4KwuUBR",
+    "Identity": "",
+    "ReputationScore": 0.22133989652507982,
+    "TotalTransactions": 142,
+    "InTransactions": 20
+  },
+  {
+    "No": 45,
+    "Address": "TFm2FK8Yjq7Ewo1YLQED6133xfigDu5wQN",
+    "Identity": "",
+    "ReputationScore": 0.22083131754331992,
+    "TotalTransactions": 19,
+    "InTransactions": 10
+  },
+  {
+    "No": 46,
+    "Address": "TBA6CypYJizwA9XdC7Ubgc5F1bxrQ7SqPt",
+    "Identity": "",
+    "ReputationScore": 0.2188140768622739,
+    "TotalTransactions": 56,
+    "InTransactions": 19
+  },
+  {
+    "No": 47,
+    "Address": "TSFa2foJ75NmiTPfVwnyJdrvWVH5Bzz3YF",
+    "Identity": "",
+    "ReputationScore": 0.20291078718524885,
+    "TotalTransactions": 72,
+    "InTransactions": 19
+  },
+  {
+    "No": 48,
+    "Address": "TVQ9J6LjDycTEEkv4GejicVX9R6QQ9GcZw",
+    "Identity": "",
+    "ReputationScore": 0.1979976123842935,
+    "TotalTransactions": 11,
+    "InTransactions": 11
+  },
+  {
+    "No": 49,
+    "Address": "TPWG3bJyN12p9YW5rEMYxvTSPozvgVMyZp",
+    "Identity": "",
+    "ReputationScore": 0.1974461866304161,
+    "TotalTransactions": 14,
+    "InTransactions": 13
+  },
+  {
+    "No": 50,
+    "Address": "TLy3UAvvXUNidtqtCJqcy8uCFFbVwYB1WR",
+    "Identity": "",
+    "ReputationScore": 0.19604961425794232,
+    "TotalTransactions": 33,
+    "InTransactions": 33
+  },
+  {
+    "No": 51,
+    "Address": "TCFJCdAQkRvitKzJruuyivVWwmWxrc5yKU",
+    "Identity": "",
+    "ReputationScore": 0.19399492938944268,
+    "TotalTransactions": 24,
+    "InTransactions": 15
+  },
+  {
+    "No": 52,
+    "Address": "TSGr5QyNoz8Yw9uSL2KSb9FKgWbXdMCBrP",
+    "Identity": "",
+    "ReputationScore": 0.18973373696053422,
+    "TotalTransactions": 4,
+    "InTransactions": 4
+  },
+  {
+    "No": 53,
+    "Address": "TW9h78TWMgbc48VHQ6uNA2wb4VoGevnTp7",
+    "Identity": "",
+    "ReputationScore": 0.18881493142779127,
+    "TotalTransactions": 16,
+    "InTransactions": 15
+  },
+  {
+    "No": 54,
+    "Address": "TCR5hJc7uPYdZLJfmjbZ8bNYZq1hrumofv",
+    "Identity": "",
+    "ReputationScore": 0.18124383648176934,
+    "TotalTransactions": 2,
+    "InTransactions": 2
+  },
+  {
+    "No": 55,
+    "Address": "TJ6bN9xDwWE6a4GXo4jcjsixVD4vZvoM8d",
+    "Identity": "",
+    "ReputationScore": 0.16670124155301147,
+    "TotalTransactions": 12,
+    "InTransactions": 6
+  },
+  {
+    "No": 56,
+    "Address": "TTzRNf45u5PTFeQRs5TbFVgSktRzBJKm2X",
+    "Identity": "",
+    "ReputationScore": 0.1663951275483064,
+    "TotalTransactions": 21,
+    "InTransactions": 14
+  },
+  {
+    "No": 57,
+    "Address": "TQsc7DrkHkVrGwAYStJzVAETCVuss2aMLi",
+    "Identity": "",
+    "ReputationScore": 0.16588413454314352,
+    "TotalTransactions": 9,
+    "InTransactions": 8
+  },
+  {
+    "No": 58,
+    "Address": "TEPSrSYPDSQ7yXpMFPq91Fb1QEWpMkRGfn",
+    "Identity": "",
+    "ReputationScore": 0.1610032683119432,
+    "TotalTransactions": 78,
+    "InTransactions": 12
+  },
+  {
+    "No": 59,
+    "Address": "TBREsCfBdPyD612xZnwvGPux7osbXvtzLh",
+    "Identity": "",
+    "ReputationScore": 0.15667243621149507,
+    "TotalTransactions": 759,
+    "InTransactions": 28
+  },
+  {
+    "No": 60,
+    "Address": "TVap5yAKot9FtAXBgns7ZxnEkxTyvh7g5t",
+    "Identity": "",
+    "ReputationScore": 0.15445038299987077,
+    "TotalTransactions": 14,
+    "InTransactions": 11
+  },
+  {
+    "No": 61,
+    "Address": "THVtAfcLqJpL8zHNQXoSiLM31Z58RfnNaj",
+    "Identity": "",
+    "ReputationScore": 0.1517760618481234,
+    "TotalTransactions": 18,
+    "InTransactions": 10
+  },
+  {
+    "No": 62,
+    "Address": "TAeXoCEpGTeTruxwN19pc6TpTPfeAk1E5E",
+    "Identity": "",
+    "ReputationScore": 0.1503288743900018,
+    "TotalTransactions": 11,
+    "InTransactions": 10
+  },
+  {
+    "No": 63,
+    "Address": "TA6PqFVdHZssgujS63q2MgNQaYne2uk5jP",
+    "Identity": "",
+    "ReputationScore": 0.14854820377259154,
+    "TotalTransactions": 48,
+    "InTransactions": 10
+  },
+  {
+    "No": 64,
+    "Address": "TXy8MhP3gLM5bGKuAt3rzq13d15AC1t26E",
+    "Identity": "",
+    "ReputationScore": 0.14827449452308378,
+    "TotalTransactions": 24,
+    "InTransactions": 24
+  },
+  {
+    "No": 65,
+    "Address": "TTMay44a5tmkggzvtQys5RUfwCFG747QpN",
+    "Identity": "",
+    "ReputationScore": 0.14515438942788558,
+    "TotalTransactions": 6,
+    "InTransactions": 5
+  },
+  {
+    "No": 66,
+    "Address": "TUS67nSiJAjwJ4ZBhJvMRcfxwrDt1k8W4A",
+    "Identity": "",
+    "ReputationScore": 0.14328877434527107,
+    "TotalTransactions": 14,
+    "InTransactions": 13
+  },
+  {
+    "No": 67,
+    "Address": "THz2JmKFAegw3MTHyfCcW2P3sRJ6k5mgd8",
+    "Identity": "",
+    "ReputationScore": 0.14301009383296376,
+    "TotalTransactions": 7,
+    "InTransactions": 4
+  },
+  {
+    "No": 68,
+    "Address": "TFqxL4yuikAd57bv32mTUi4hgNWGB9AVRR",
+    "Identity": "",
+    "ReputationScore": 0.13752299642097912,
+    "TotalTransactions": 11,
+    "InTransactions": 9
+  },
+  {
+    "No": 69,
+    "Address": "TRkWyVLjDANQihfx6dqGfxxQX6rsSqXsEz",
+    "Identity": "",
+    "ReputationScore": 0.13748677971597714,
+    "TotalTransactions": 6,
+    "InTransactions": 6
+  },
+  {
+    "No": 70,
+    "Address": "TXrLUhieJvgANxc9LurVVNmsJQz3tnYZ5G",
+    "Identity": "",
+    "ReputationScore": 0.13742280262213555,
+    "TotalTransactions": 23,
+    "InTransactions": 21
+  },
+  {
+    "No": 71,
+    "Address": "TNCmcTdyrYKMtmE1KU2itzeCX76jGm5Not",
+    "Identity": "",
+    "ReputationScore": 0.13432527456073268,
+    "TotalTransactions": 26,
+    "InTransactions": 7
+  },
+  {
+    "No": 72,
+    "Address": "TRKBBZFu1e4Hkdmxqgn2u3KJWz7jGpudYr",
+    "Identity": "",
+    "ReputationScore": 0.13285735514069957,
+    "TotalTransactions": 7,
+    "InTransactions": 6
+  },
+  {
+    "No": 73,
+    "Address": "TM37bsXmPNEepuacXHNQMaQrcQHdinSiki",
+    "Identity": "",
+    "ReputationScore": 0.1288834471927919,
+    "TotalTransactions": 30,
+    "InTransactions": 29
+  },
+  {
+    "No": 74,
+    "Address": "TXQd9n7MGcKfrKqch4wxQaH8BAhCCCCCC8",
+    "Identity": "",
+    "ReputationScore": 0.1282314867760186,
+    "TotalTransactions": 25,
+    "InTransactions": 24
+  },
+  {
+    "No": 75,
+    "Address": "TJYNWWkWpdAzY8QajKGiKhPT1Sn3tsfdQ4",
+    "Identity": "",
+    "ReputationScore": 0.12681094596083167,
+    "TotalTransactions": 19,
+    "InTransactions": 19
+  },
+  {
+    "No": 76,
+    "Address": "TMoLih92bwb9WtVbNFckS2v7T2Q4h636rk",
+    "Identity": "",
+    "ReputationScore": 0.12521845242729834,
+    "TotalTransactions": 1,
+    "InTransactions": 1
+  },
+  {
+    "No": 77,
+    "Address": "TP2843zmQtUoxfZbQ31q9QyuiHFYtCpWEP",
+    "Identity": "",
+    "ReputationScore": 0.12170706829404504,
+    "TotalTransactions": 10,
+    "InTransactions": 10
+  },
+  {
+    "No": 78,
+    "Address": "TJEw7U8a4Asoh83EoB5Pk5YyfTadVZbb8h",
+    "Identity": "",
+    "ReputationScore": 0.12023811675355536,
+    "TotalTransactions": 47,
+    "InTransactions": 14
+  },
+  {
+    "No": 79,
+    "Address": "TVnhAKPJD166CpMzFLCZF9GxqWHUn4UE9Y",
+    "Identity": "",
+    "ReputationScore": 0.11843450072778919,
+    "TotalTransactions": 9,
+    "InTransactions": 8
+  },
+  {
+    "No": 80,
+    "Address": "TLjkbiYgT3H9dhDboAGnxojXTP5tYdETvJ",
+    "Identity": "",
+    "ReputationScore": 0.11737441423420397,
+    "TotalTransactions": 9,
+    "InTransactions": 8
+  },
+  {
+    "No": 81,
+    "Address": "TNXoiAJ3dct8Fjg4M9fkLFh9S2v9TXc32G",
+    "Identity": "",
+    "ReputationScore": 0.11639257505113275,
+    "TotalTransactions": 91,
+    "InTransactions": 20
+  },
+  {
+    "No": 82,
+    "Address": "TA4MgdCMfwQrgcm3ZcnXSQDBY4GoB9Zt7E",
+    "Identity": "",
+    "ReputationScore": 0.11610957836850724,
+    "TotalTransactions": 93,
+    "InTransactions": 51
+  },
+  {
+    "No": 83,
+    "Address": "TReoK7VCKnvK7kfofs4pgqPWKAmpc5uoTT",
+    "Identity": "",
+    "ReputationScore": 0.1145059305002961,
+    "TotalTransactions": 19,
+    "InTransactions": 19
+  },
+  {
+    "No": 84,
+    "Address": "TE9eC5EiHx9zD5bWfzyPhtQ94s7QMqv2CQ",
+    "Identity": "",
+    "ReputationScore": 0.11446627630405784,
+    "TotalTransactions": 10,
+    "InTransactions": 10
+  },
+  {
+    "No": 85,
+    "Address": "TBsvhEnonoV5nDUnMjTF88qGBJey5SRvsk",
+    "Identity": "",
+    "ReputationScore": 0.1144432799398474,
+    "TotalTransactions": 5,
+    "InTransactions": 5
+  },
+  {
+    "No": 86,
+    "Address": "TNXi1sqT29ZCyAxxr422HCQCguimEEGNWL",
+    "Identity": "",
+    "ReputationScore": 0.11198399443253859,
+    "TotalTransactions": 6,
+    "InTransactions": 3
+  },
+  {
+    "No": 87,
+    "Address": "TYASr5UV6HEcXatwdFQfmLVUqQQQMUxHLS",
+    "Identity": "",
+    "ReputationScore": 0.11126042718541944,
+    "TotalTransactions": 84,
+    "InTransactions": 22
+  },
+  {
+    "No": 88,
+    "Address": "TPbqMN5pBEbHkz2YDXtMjfALhB1YJLynWW",
+    "Identity": "",
+    "ReputationScore": 0.11050475104098646,
+    "TotalTransactions": 17,
+    "InTransactions": 17
+  },
+  {
+    "No": 89,
+    "Address": "TV7vBR2s1wPLG2Pd2MEwVYL75hRZSMJYXt",
+    "Identity": "",
+    "ReputationScore": 0.11009098776827837,
+    "TotalTransactions": 7,
+    "InTransactions": 4
+  },
+  {
+    "No": 90,
+    "Address": "TWDchZBmYvTQBeXD4w8rRUowDv5ka8kiFU",
+    "Identity": "",
+    "ReputationScore": 0.1073827216887536,
+    "TotalTransactions": 31,
+    "InTransactions": 10
+  },
+  {
+    "No": 91,
+    "Address": "TRDy7hgAQdYSi2uPYZiK6Mvhfx46aQQQxj",
+    "Identity": "",
+    "ReputationScore": 0.1071477896128069,
+    "TotalTransactions": 12,
+    "InTransactions": 3
+  },
+  {
+    "No": 92,
+    "Address": "TQ5rbZt3HUMcJSw8c7CvfYW7aRrC9RW6bM",
+    "Identity": "",
+    "ReputationScore": 0.1064972666339138,
+    "TotalTransactions": 5,
+    "InTransactions": 5
+  },
+  {
+    "No": 93,
+    "Address": "TRRg438DFJ9U3EZQSPYXfczPnmmEKgZfzW",
+    "Identity": "",
+    "ReputationScore": 0.10639222871949638,
+    "TotalTransactions": 7,
+    "InTransactions": 5
+  },
+  {
+    "No": 94,
+    "Address": "THyNKgEdAKHia1XgA2nwnbL1FhABTqY1f3",
+    "Identity": "",
+    "ReputationScore": 0.10595871399595654,
+    "TotalTransactions": 11,
+    "InTransactions": 10
+  },
+  {
+    "No": 95,
+    "Address": "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",
+    "Identity": "",
+    "ReputationScore": 0.10408568814672407,
+    "TotalTransactions": 7,
+    "InTransactions": 7
+  },
+  {
+    "No": 96,
+    "Address": "TGhL1hc8FCGNFc9Hxond3kKZ2cYKiVHtPx",
+    "Identity": "",
+    "ReputationScore": 0.10314002193284424,
+    "TotalTransactions": 6,
+    "InTransactions": 6
+  },
+  {
+    "No": 97,
+    "Address": "TSGU2SjmxnXCEs6LmFVHqREE51eKea8ZVT",
+    "Identity": "",
+    "ReputationScore": 0.10163853997615256,
+    "TotalTransactions": 27,
+    "InTransactions": 26
+  },
+  {
+    "No": 98,
+    "Address": "TXfyYGFydbXY4dgV1FdZD7iL8Mym1eH9Ha",
+    "Identity": "",
+    "ReputationScore": 0.10119193214308987,
+    "TotalTransactions": 8,
+    "InTransactions": 5
+  },
+  {
+    "No": 99,
+    "Address": "TXaPDFpgixmuUF4MptZp2x7ajqfwKu6CMM",
+    "Identity": "",
+    "ReputationScore": 0.10072008463531344,
+    "TotalTransactions": 4,
+    "InTransactions": 2
+  }
+]

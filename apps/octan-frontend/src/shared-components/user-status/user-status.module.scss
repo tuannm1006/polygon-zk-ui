@@ -1,0 +1,78 @@
+.line {
+  display: block;
+  position: absolute;
+  background-color: #8a939b;
+  mask-repeat: no-repeat;
+}
+
+.active {
+  background: linear-gradient(90deg, #00fe7e 0%, #00c4fe 100%);
+}
+
+.line1 {
+  mask-image: url('~/public/assets/images/user-information/line-1.svg');
+  width: 93px;
+  height: 147px;
+  top: 110px;
+  right: 285px;
+}
+
+.line2 {
+  mask-image: url('~/public/assets/images/user-information/line-2.svg');
+  width: 93px;
+  height: 85px;
+  top: 175px;
+  right: 285px;
+}
+
+.line3 {
+  mask-image: url('~/public/assets/images/user-information/line-3.svg');
+  width: 95px;
+  height: 15px;
+  top: 243px;
+  right: 287px;
+}
+
+.line4 {
+  mask-image: url('~/public/assets/images/user-information/line-4.svg');
+  width: 93px;
+  height: 147px;
+  top: 110px;
+  left: 277px;
+}
+
+.line5 {
+  mask-image: url('~/public/assets/images/user-information/line-5.svg');
+  width: 93px;
+  height: 85px;
+  top: 175px;
+  left: 277px;
+}
+
+.line6 {
+  mask-image: url('~/public/assets/images/user-information/line-6.svg');
+  width: 95px;
+  height: 15px;
+  top: 241px;
+  left: 279px;
+}
+
+.btnScore {
+  cursor: pointer;
+  background: #0D0D0D;
+
+  border: 1px solid #323232;
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 8px;
+  position: relative;
+}
+
+.btnScoreActive {
+  background: linear-gradient(#161616, #161616) padding-box, linear-gradient(to right, #00fe7e, #00c4fe) border-box;
+  border: 1px solid transparent;
+}

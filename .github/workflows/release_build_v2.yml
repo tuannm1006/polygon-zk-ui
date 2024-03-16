@@ -1,0 +1,49 @@
+name: release_build_v2
+
+on:
+  release:
+    types: [published]
+     
+permissions:
+  id-token: write # required to use OIDC authentication
+  contents: read # required to checkout the code from the repo
+  deployments: write
+  
+concurrency: 
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: mainnet
+    steps:
+    - run: echo "RELEASE_VERSION=${{ github.event.release.tag_name }}" >> $GITHUB_ENV
+    - uses: actions/checkout@v3
+      with:
+        ref: refs/tags/${{ env.RELEASE_VERSION }}
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16
+    - name: Generate build
+      run: yarn install && unset CI && NODE_ENV=production yarn run build:fe
+      env: 
+        REACT_APP_RANKING_API_URL: "https://reputation-api.octan.network"
+        REACT_APP_RANKING_URL: "https://reputation-api.octan.network"
+        REPUTATION_RANKING_BASE_PATH: ''
+        REACT_APP_USING_TESTNET: false
+        REACT_APP_API_URL: "https://api.octan.network/1id"
+        REACT_APP_SCORE_COUNTDOWN: 60
+        REACT_APP_SBT_MINTER_BSC_CONTRACT_ADDRESS: ${{ vars.OCTAN_APP_SBT_MINTER_BSC_CONTRACT_ADDRESS }}
+        REACT_APP_SBT_REPUTATION_BSC_CONTRACT_ADDRESS: ${{ vars.OCTAN_APP_SBT_REPUTATION_BSC_CONTRACT_ADDRESS }}
+    - uses: aws-actions/configure-aws-credentials@v1
+      with:
+        role-to-assume: ${{ vars.OCTAN_INFRA_AWS_ROLE }}
+        role-duration-seconds: 900 # the ttl of the session, in seconds.
+        aws-region: ${{ vars.OCTAN_INFRA_AWS_REGION }}
+    - name: Store artifact
+      run: |
+        tar -cvzf artifact.tar.gz -C ./apps/octan-frontend/build .
+        aws s3 cp ./artifact.tar.gz s3://${{ vars.OCTAN_INFRA_ARTIFACT_BUCKET }}/release/soulbound/frontend/soundbound-frontend-${RELEASE_VERSION}.tar.gz \
+           --storage-class STANDARD_IA

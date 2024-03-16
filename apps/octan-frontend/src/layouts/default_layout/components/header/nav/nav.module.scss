@@ -1,0 +1,11 @@
+.textLogo {
+  font-family: monospace;
+  @apply font-bold;
+  letter-spacing: 0.3rem;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.active {
+  color: #0db774;
+}
