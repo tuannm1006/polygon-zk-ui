@@ -248,7 +248,7 @@ export const MintToken: React.FC<MintTokenProps> = ({ open, handleClose, onConfi
 
   const handleViewOnBlockExplorer = () => {
     // TODO: Implement Dynamic chain
-    window.open(`https://${USING_TESTNET ? 'testnet.' : ''}bscscan.com/tx/${txHash}`);
+    window.open(`https://testnet-zkevm.polygonscan.com/tx/${txHash}`);
   };
   return (
     <>
